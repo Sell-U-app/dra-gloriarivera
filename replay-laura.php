@@ -85,14 +85,19 @@ button{font-family:inherit}
 .gr-overlay-divider{width:30%; height:1px; background:#c4a47c; opacity:.55;}
 .gr-overlay-cta{align-self:center; margin-top:32px; background:transparent; color:#f5f0eb; border:1px solid #c4a47c; padding:18px 36px; font-weight:500; font-size:14px; letter-spacing:.06em; text-transform:uppercase; display:inline-flex; align-items:center; gap:12px;}
 
-/* ===== HERO ===== */
+/* ===== TOP BANNER (carbón, mensaje pequeño) ===== */
 main{padding-top:120px;}
+.rl-top-banner{background:#111111; color:#f5f0eb; padding:14px 32px; text-align:center; border-bottom:1px solid rgba(196,164,124,.18);}
+.rl-top-banner-inner{max-width:var(--container); margin:0 auto;}
+.rl-top-banner p{margin:0; font-family:var(--font-display); font-style:italic; font-size:14.5px; letter-spacing:.01em; line-height:1.5; color:#f5f0eb;}
+.rl-top-banner p .accent{color:var(--dorado);}
+
+/* ===== HERO ===== */
 .rl-section{padding:48px 32px 64px;}
 .rl-inner{max-width:var(--container); margin:0 auto; display:flex; flex-direction:column; gap:40px; align-items:center; text-align:center;}
 .rl-promise{max-width:880px;}
 .eyebrow{display:inline-block; font-size:11px; letter-spacing:.22em; text-transform:uppercase; color:var(--dorado); font-weight:500; margin-bottom:20px;}
 .rl-eyebrow::before{content:""; display:inline-block; width:32px; height:1px; background:var(--hairline-gold); margin-right:12px; vertical-align:middle;}
-.rl-overhead{font-family:var(--font-display); font-size:clamp(1.5rem, 1.6vw + .6rem, 2rem); line-height:1.15; color:var(--gr-ink-70); margin:0 0 28px; max-width:30ch; margin-left:auto; margin-right:auto; font-style:italic;}
 .rl-h1{font-family:var(--font-display); font-size:clamp(2rem, 2.4vw + 1rem, 3.25rem); line-height:1.08; letter-spacing:-0.015em; margin:0 0 20px; color:var(--carbon); text-wrap:balance;}
 .rl-h1 .accent{color:var(--dorado); font-style:italic;}
 .rl-h1 strong{font-weight:inherit; color:var(--carbon); position:relative;}
@@ -101,10 +106,19 @@ main{padding-top:120px;}
 
 /* ===== VIDEO BLOCK ===== */
 .rl-video-block{display:flex; flex-direction:column; gap:18px; width:100%; max-width:880px;}
-.rl-step-label{display:flex; align-items:center; justify-content:center; gap:8px; font-size:11px; letter-spacing:.22em; text-transform:uppercase; color:var(--piedra); font-weight:500;}
+.rl-step-label{display:flex; align-items:center; justify-content:center; gap:10px; font-size:14px; letter-spacing:.2em; text-transform:uppercase; color:var(--piedra); font-weight:500;}
 .rl-step-num{color:var(--dorado);}
 .rl-step-sep{color:var(--hairline-strong);}
 .rl-step-title{font-family:var(--font-display); font-size:clamp(1.4rem, 1vw + 1rem, 1.85rem); color:var(--carbon); margin:6px 0 0;}
+
+/* Bigger eyebrow specifically for the "Paso #2 · Agenda" label */
+.cal-header .eyebrow, .iv-section .eyebrow{font-size:14px; letter-spacing:.2em;}
+
+/* Imágenes complementarias debajo del video testimonio */
+.rl-extra-images{display:grid; grid-template-columns:1fr 1fr; gap:20px; width:100%; margin-top:8px;}
+.rl-extra-images figure{margin:0; border-radius:8px; overflow:hidden; border:1px solid var(--hairline-gold); background:var(--gr-cream-deep); box-shadow:0 14px 36px -22px rgba(17,17,17,.22);}
+.rl-extra-images img{display:block; width:100%; height:auto; aspect-ratio:4/3; object-fit:cover;}
+
 .rl-player{position:relative; aspect-ratio:16/9; background:var(--gr-cream-deep); border-radius:8px; overflow:hidden; cursor:pointer; box-shadow:0 24px 60px -24px rgba(17,17,17,.25); border:1px solid var(--hairline-gold);
   background-image:
     radial-gradient(ellipse 80% 60% at 30% 40%, rgba(196,164,124,.22), transparent 60%),
@@ -130,11 +144,13 @@ main{padding-top:120px;}
 .cal-embed iframe{display:block; width:100%; min-height:720px; border:0;}
 .cal-foot{text-align:center; margin-top:24px; color:var(--gr-ink-70); font-size:15px;}
 
-/* ===== INTERVIEW SECTION ===== */
-.iv-section{padding:96px 32px; background:var(--beige); border-top:1px solid var(--hairline);}
+/* ===== INTERVIEW SECTION (fondo carbón) ===== */
+.iv-section{padding:96px 32px; background:#111111; color:#f5f0eb; border-top:1px solid rgba(196,164,124,.18);}
 .iv-inner{max-width:var(--container); margin:0 auto; display:flex; flex-direction:column; gap:32px; align-items:center; text-align:center;}
-.iv-h2{font-family:var(--font-display); font-size:clamp(2rem, 2.4vw + 1rem, 3rem); line-height:1.1; margin:0; max-width:22ch;}
+.iv-section .eyebrow{color:var(--dorado);}
+.iv-h2{font-family:var(--font-display); font-size:clamp(2rem, 2.4vw + 1rem, 3rem); line-height:1.1; margin:0; max-width:22ch; color:#f5f0eb;}
 .iv-h2 .accent{color:var(--dorado); font-style:italic;}
+.iv-section .rl-cta{background:var(--dorado); color:#fff;}
 .iv-player{position:relative; aspect-ratio:16/9; width:100%; max-width:880px; background:var(--gr-cream-deep); border-radius:8px; overflow:hidden; border:1px solid var(--hairline-gold); box-shadow:0 24px 60px -24px rgba(17,17,17,.25);
   background-image:
     radial-gradient(ellipse 80% 60% at 30% 40%, rgba(196,164,124,.22), transparent 60%),
@@ -143,24 +159,78 @@ main{padding-top:120px;}
 }
 .iv-player iframe{position:absolute; inset:0; width:100%; height:100%; border:0;}
 
-/* ===== REVIEWS SECTION ===== */
-.rv-section{padding:96px 32px; background:var(--hueso); border-top:1px solid var(--hairline);}
-.rv-inner{max-width:var(--container); margin:0 auto; display:flex; flex-direction:column; gap:40px; align-items:center;}
-.rv-head{text-align:center; max-width:680px;}
-.rv-eyebrow{display:inline-flex; align-items:center; gap:10px; font-size:11px; letter-spacing:.22em; text-transform:uppercase; color:var(--dorado); font-weight:500; margin-bottom:14px;}
-.rv-h2{font-family:var(--font-display); font-size:clamp(2rem, 2.4vw + 1rem, 3rem); line-height:1.1; margin:0;}
-.rv-h2 .accent{color:var(--dorado); font-style:italic;}
-.rv-grid{display:grid; grid-template-columns:repeat(3, 1fr); gap:24px; width:100%;}
-.rv-card{background:#fff; border:1px solid var(--hairline); border-radius:8px; padding:24px; box-shadow:0 10px 24px -16px rgba(17,17,17,.18); display:flex; flex-direction:column; gap:14px;}
-.rv-card-head{display:flex; align-items:center; gap:12px;}
-.rv-avatar{width:40px; height:40px; border-radius:50%; background:var(--gr-cream-deep); border:1px solid var(--hairline-gold); display:flex; align-items:center; justify-content:center; font-family:var(--font-display); color:var(--carbon); font-size:18px;}
-.rv-card-name{font-weight:500; font-size:14px; color:var(--carbon);}
-.rv-card-meta{font-size:12px; color:var(--piedra);}
-.rv-stars{display:inline-flex; gap:2px; color:var(--dorado); font-size:14px; letter-spacing:0;}
-.rv-quote{font-size:14.5px; line-height:1.6; color:var(--gr-ink-70); margin:0; font-style:italic;}
-.rv-source{display:inline-flex; align-items:center; gap:6px; font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:var(--piedra); margin-top:auto;}
-.rv-source svg{width:14px; height:14px;}
-@media(max-width:900px){.rv-grid{grid-template-columns:1fr; gap:18px;}}
+/* ===== REVIEWS SECTION — Carrusel infinito (mismo panel que home) ===== */
+.testimonials .kit-container{max-width:var(--container); margin:0 auto; padding:0 32px;}
+@media(max-width:700px){.testimonials .kit-container{padding:0 24px;}}
+.testimonials{padding:96px 0 100px; background:var(--beige); overflow:hidden; border-top:1px solid var(--hairline);}
+.testimonials .section-head-center{margin-bottom:44px; text-align:center; display:flex; flex-direction:column; align-items:center; gap:8px;}
+.testimonials .section-head-center h2{font-family:var(--font-display); font-size:clamp(2rem, 2.4vw + 1rem, 3rem); line-height:1.1; margin:0; color:var(--carbon);}
+.testimonials .section-head-center h2 .accent{color:var(--dorado); font-style:italic;}
+.t-rating-summary{display:inline-flex; align-items:center; gap:10px; margin-top:14px; padding:8px 14px; background:var(--hueso); border:1px solid var(--hairline); border-radius:999px;}
+.t-stars-row{display:inline-flex; gap:2px;}
+.t-stars-row svg{width:16px; height:16px; fill:#F5B400;}
+.t-rating-text{font-size:12.5px; color:var(--carbon); letter-spacing:.02em; font-weight:500;}
+.t-marquee{display:flex; flex-direction:column; gap:20px; padding:8px 0;
+  -webkit-mask-image:linear-gradient(to right, transparent 0, #000 7%, #000 93%, transparent 100%);
+          mask-image:linear-gradient(to right, transparent 0, #000 7%, #000 93%, transparent 100%);
+}
+.t-row{display:flex; overflow:hidden; width:100%;}
+.t-track{display:flex; gap:20px; flex-shrink:0; padding-right:20px; width:max-content; will-change:transform;}
+.t-track--ltr{animation:t-scroll-left 55s linear infinite;}
+.t-track--rtl{animation:t-scroll-right 65s linear infinite;}
+.t-marquee:hover .t-track, .t-marquee:focus-within .t-track{animation-play-state:paused;}
+@keyframes t-scroll-left{from{transform:translateX(0);} to{transform:translateX(-50%);}}
+@keyframes t-scroll-right{from{transform:translateX(-50%);} to{transform:translateX(0);}}
+.t-card{flex:0 0 auto; width:360px; min-height:230px; background:var(--hueso); border:1px solid var(--hairline); border-radius:14px; padding:22px 22px 20px; display:flex; flex-direction:column; gap:12px; box-shadow:0 1px 2px rgba(17,17,17,.04); transition:transform var(--dur-normal) var(--ease-premium), box-shadow var(--dur-normal) var(--ease-premium);}
+.t-card:hover{transform:translateY(-3px); box-shadow:0 14px 32px -16px rgba(17,17,17,.18);}
+.t-card-head{display:flex; align-items:center; gap:12px;}
+.t-avatar{flex:0 0 auto; width:42px; height:42px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:#fff; font-family:var(--font-body); font-weight:500; font-size:16px; letter-spacing:.01em;}
+.t-card-meta{display:flex; flex-direction:column; min-width:0; flex:1 1 auto;}
+.t-card-author{font-size:14px; font-weight:500; color:var(--carbon); line-height:1.2; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.t-card-time{font-size:11.5px; color:var(--piedra); letter-spacing:.02em; margin-top:2px;}
+.t-google-mark{flex:0 0 auto; width:18px; height:18px;}
+.t-card-stars{display:inline-flex; gap:2px;}
+.t-card-stars svg{width:15px; height:15px; fill:#F5B400;}
+.t-card-text{font-family:var(--font-display); font-style:italic; font-size:15.5px; line-height:1.6; color:var(--carbon); margin:2px 0 0; letter-spacing:-0.005em;
+  display:-webkit-box; -webkit-line-clamp:6; -webkit-box-orient:vertical; overflow:hidden;
+}
+@media(max-width:980px){
+  .testimonials{padding:72px 0 80px;}
+  .testimonials .section-head-center{margin-bottom:32px;}
+  .t-card{width:320px;}
+  .t-track--ltr{animation-duration:50s;}
+  .t-track--rtl{animation-duration:58s;}
+}
+@media(max-width:700px){
+  .testimonials{padding:56px 0 64px;}
+  .testimonials .section-head-center{margin-bottom:24px;}
+  .testimonials .section-head-center h2{font-size:clamp(1.5rem, 6.5vw, 1.9rem); line-height:1.15;}
+  .t-rating-summary{margin-top:10px; padding:6px 12px; gap:8px;}
+  .t-rating-summary svg{width:14px; height:14px;}
+  .t-rating-text{font-size:11.5px;}
+  .t-marquee{gap:12px; padding:4px 0;
+    -webkit-mask-image:linear-gradient(to right, transparent 0, #000 4%, #000 96%, transparent 100%);
+            mask-image:linear-gradient(to right, transparent 0, #000 4%, #000 96%, transparent 100%);
+  }
+  .t-track{gap:12px; padding-right:12px;}
+  .t-card{width:78vw; max-width:300px; min-height:210px; padding:16px 16px 14px; border-radius:12px; gap:10px;}
+  .t-card:hover{transform:none;}
+  .t-avatar{width:36px; height:36px; font-size:14px;}
+  .t-card-author{font-size:13px;}
+  .t-card-time{font-size:11px;}
+  .t-google-mark{width:16px; height:16px;}
+  .t-card-stars svg{width:13px; height:13px;}
+  .t-card-text{font-size:13.5px; line-height:1.55; -webkit-line-clamp:5;}
+  .t-track--ltr{animation-duration:42s;}
+  .t-track--rtl{animation-duration:48s;}
+}
+@media(max-width:420px){.t-card{width:82vw;} .t-card-text{font-size:13px; -webkit-line-clamp:6;}}
+@media(prefers-reduced-motion:reduce){
+  .t-track--ltr, .t-track--rtl{animation:none; transform:none;}
+  .t-row{overflow-x:auto; scroll-snap-type:x mandatory; -webkit-overflow-scrolling:touch;}
+  .t-card{scroll-snap-align:start;}
+  .t-marquee{-webkit-mask-image:none; mask-image:none;}
+}
 
 /* ===== EXPERIENCES (video testimonials) ===== */
 .xp-section{padding:96px 32px; background:var(--beige); border-top:1px solid var(--hairline);}
@@ -314,13 +384,19 @@ footer{background:#111111; color:#f5f0eb; padding:80px 32px 40px; font-family:"G
 
 <main id="main">
 
+  <!-- ===== TOP BANNER (panel carbón) ===== -->
+  <section class="rl-top-banner" aria-label="Mensaje destacado">
+    <div class="rl-top-banner-inner">
+      <p>No postergues la sonrisa de tus sueños — déjanos ayudarte y <span class="accent">agenda tu llamada justo ahora.</span></p>
+    </div>
+  </section>
+
   <!-- ===== HERO + VIDEO TESTIMONIO LAURA ===== -->
   <section id="inicio" class="rl-section">
     <div class="rl-inner">
 
       <div class="rl-promise">
         <span class="eyebrow rl-eyebrow">No solo alineamos dientes.</span>
-        <p class="rl-overhead">No postergues la sonrisa de tus sueños — déjanos ayudarte y agenda tu llamada justo ahora.</p>
         <h1 class="rl-h1">
           Descubre cómo <span class="accent">Laura</span> logró cerrar su <strong>mordida abierta</strong> sin brackets dolorosos, con ortodoncia invisible… y en menos de <span class="accent">12 meses</span>
         </h1>
@@ -349,6 +425,20 @@ footer{background:#111111; color:#f5f0eb; padding:80px 32px 40px; font-family:"G
               vsl(l+'loader.min.js',function(){if(!vli){var vlc=v[c][vl];vli=new vlc();}vli.loadScript(l+'player.min.js',function(){var vec=v[d][ve];t=new vec();t.run(a);});});
           })(window, document, 'Vidalytics', 'vidalytics_embed_coyGCsb4gYkozhsH', 'https://fast.vidalytics.com/embeds/Ts0m5caS/coyGCsb4gYkozhsH/');
           </script>
+        </div>
+
+        <!-- Imágenes complementarias del caso de Laura. Reemplaza los src por las fotos reales (antes/después). -->
+        <div class="rl-extra-images">
+          <figure>
+            <img src="https://res.cloudinary.com/dafmpak8s/image/upload/q_auto/f_auto/v1778774058/case-mordida-abierta_fjrziv.png"
+                 alt="Caso clínico: mordida abierta tratada con Invisalign — vista antes del tratamiento"
+                 loading="lazy" decoding="async" width="800" height="600" />
+          </figure>
+          <figure>
+            <img src="https://res.cloudinary.com/dafmpak8s/image/upload/q_auto/f_auto/v1778774057/invisalign-case_br9l6h.png"
+                 alt="Caso clínico tratado con Invisalign — resultado al finalizar el tratamiento"
+                 loading="lazy" decoding="async" width="800" height="600" />
+          </figure>
         </div>
 
         <button class="rl-cta" data-scroll="#agendar">
@@ -413,64 +503,90 @@ footer{background:#111111; color:#f5f0eb; padding:80px 32px 40px; font-family:"G
     </div>
   </section>
 
-  <!-- ===== RESEÑAS DE GOOGLE ===== -->
-  <section id="resenas" class="rv-section" aria-labelledby="rv-h">
-    <div class="rv-inner">
-      <header class="rv-head">
-        <span class="rv-eyebrow">★ ★ ★ ★ ★ &nbsp;·&nbsp; Google</span>
-        <h2 id="rv-h" class="rv-h2">Reseñas de <span class="accent">Google</span></h2>
-      </header>
-
-      <div class="rv-grid">
-        <article class="rv-card">
-          <div class="rv-card-head">
-            <span class="rv-avatar">I</span>
-            <div>
-              <div class="rv-card-name">Ivonne Rocha</div>
-              <div class="rv-card-meta">Arquitecta · Chicó</div>
-            </div>
-          </div>
-          <div class="rv-stars" aria-label="5 estrellas">★★★★★</div>
-          <p class="rv-quote">Llegué pidiendo brackets y salí entendiendo por qué Invisalign era la decisión correcta para mí. La doctora me explicó cada paso del ClinCheck antes de empezar.</p>
-          <span class="rv-source">
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.35 11.1H12v2.8h5.36c-.24 1.4-1.66 4.1-5.36 4.1-3.22 0-5.85-2.67-5.85-5.95S8.78 6.1 12 6.1c1.84 0 3.07.78 3.78 1.45l2.57-2.48C16.66 3.55 14.51 2.6 12 2.6 6.97 2.6 2.9 6.66 2.9 11.7s4.07 9.1 9.1 9.1c5.25 0 8.73-3.7 8.73-8.9 0-.6-.06-1.05-.14-1.5z"/></svg>
-            Reseña en Google
+  <!-- ===== RESEÑAS DE GOOGLE — Carrusel infinito (mismo panel que home) ===== -->
+  <section id="resenas" class="testimonials" aria-labelledby="rv-h">
+    <div class="kit-container">
+      <div class="section-head-center">
+        <span class="eyebrow">Lo que dicen mis pacientes</span>
+        <h2 id="rv-h">Reseñas de <span class="accent">Google</span></h2>
+        <div class="t-rating-summary" role="img" aria-label="Calificación 4.9 de 5 estrellas en reseñas de Google">
+          <span class="t-stars-row" aria-hidden="true">
+            <svg viewBox="0 0 20 20"><path d="M10 1.5l2.6 5.3 5.9.9-4.3 4.1 1 5.7L10 14.9 4.8 17.5l1-5.7L1.5 7.7l5.9-.9L10 1.5z"/></svg>
+            <svg viewBox="0 0 20 20"><path d="M10 1.5l2.6 5.3 5.9.9-4.3 4.1 1 5.7L10 14.9 4.8 17.5l1-5.7L1.5 7.7l5.9-.9L10 1.5z"/></svg>
+            <svg viewBox="0 0 20 20"><path d="M10 1.5l2.6 5.3 5.9.9-4.3 4.1 1 5.7L10 14.9 4.8 17.5l1-5.7L1.5 7.7l5.9-.9L10 1.5z"/></svg>
+            <svg viewBox="0 0 20 20"><path d="M10 1.5l2.6 5.3 5.9.9-4.3 4.1 1 5.7L10 14.9 4.8 17.5l1-5.7L1.5 7.7l5.9-.9L10 1.5z"/></svg>
+            <svg viewBox="0 0 20 20"><path d="M10 1.5l2.6 5.3 5.9.9-4.3 4.1 1 5.7L10 14.9 4.8 17.5l1-5.7L1.5 7.7l5.9-.9L10 1.5z"/></svg>
           </span>
-        </article>
-
-        <article class="rv-card">
-          <div class="rv-card-head">
-            <span class="rv-avatar">D</span>
-            <div>
-              <div class="rv-card-name">David Castaño</div>
-              <div class="rv-card-meta">Ingeniero · Cedritos</div>
-            </div>
-          </div>
-          <div class="rv-stars" aria-label="5 estrellas">★★★★★</div>
-          <p class="rv-quote">Lo que más valoro: poder escribirle por WhatsApp y que conteste ella, no una asistente. Catorce meses de tratamiento, cero sorpresas.</p>
-          <span class="rv-source">
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.35 11.1H12v2.8h5.36c-.24 1.4-1.66 4.1-5.36 4.1-3.22 0-5.85-2.67-5.85-5.95S8.78 6.1 12 6.1c1.84 0 3.07.78 3.78 1.45l2.57-2.48C16.66 3.55 14.51 2.6 12 2.6 6.97 2.6 2.9 6.66 2.9 11.7s4.07 9.1 9.1 9.1c5.25 0 8.73-3.7 8.73-8.9 0-.6-.06-1.05-.14-1.5z"/></svg>
-            Reseña en Google
-          </span>
-        </article>
-
-        <article class="rv-card">
-          <div class="rv-card-head">
-            <span class="rv-avatar">J</span>
-            <div>
-              <div class="rv-card-name">José Miguel Navas</div>
-              <div class="rv-card-meta">Consultor financiero · Rosales</div>
-            </div>
-          </div>
-          <div class="rv-stars" aria-label="5 estrellas">★★★★★</div>
-          <p class="rv-quote">Aprecio la honestidad sobre los tiempos reales. Me dijo «veinte meses» y fueron veintiún meses exactos. En este país eso vale más de lo que uno cree.</p>
-          <span class="rv-source">
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.35 11.1H12v2.8h5.36c-.24 1.4-1.66 4.1-5.36 4.1-3.22 0-5.85-2.67-5.85-5.95S8.78 6.1 12 6.1c1.84 0 3.07.78 3.78 1.45l2.57-2.48C16.66 3.55 14.51 2.6 12 2.6 6.97 2.6 2.9 6.66 2.9 11.7s4.07 9.1 9.1 9.1c5.25 0 8.73-3.7 8.73-8.9 0-.6-.06-1.05-.14-1.5z"/></svg>
-            Reseña en Google
-          </span>
-        </article>
+          <span class="t-rating-text">4.9 · 104 reseñas verificadas en Google</span>
+        </div>
       </div>
+    </div>
 
+    <?php
+    /*
+      Mismas reseñas reales del perfil de Google Maps que usa la home.
+      Extraídas verbatim del perfil de Dra Gloria Rivera (kgmid /g/11tgf8bx3w).
+    */
+    $rlTestimonios = [
+      ['name'=>'Edwin Villamil',                    'initial'=>'E', 'when'=>'Hace 5 meses', 'text'=>'La experiencia ha sido maravillosa, el profesionalismo, el servicio, la calidad humana y acompañamiento han estado al nivel de mis espectativas. Hoy termino la fase de alineadores y el resultado es excelente.'],
+      ['name'=>'Iam Guev',                          'initial'=>'I', 'when'=>'Hace 5 meses', 'text'=>'Inicié mi tratamiento de ortodoncia el 29 de julio de 2024 y, hasta el momento, ha sido una experiencia altamente satisfactoria. Los avances han mejorado notablemente mi salud oral y la alineación de mis dientes.'],
+      ['name'=>'Juan Cárdenas',                     'initial'=>'J', 'when'=>'Hace 5 meses', 'text'=>'Mi experiencia con la Dra. Gloria Rivera y su tratamiento con Invisalign ha sido excepcional. Desde la primera cita sentí una atención completamente personalizada.'],
+      ['name'=>'María Alejandra Moncaleano',        'initial'=>'M', 'when'=>'Hace 5 meses', 'text'=>'La doctora Gloria y absolutamente cada persona de su equipo se destaca por su profesionalismo y calidad humana. Destaco la dedicación, comprensión y compromiso que han tenido conmigo.'],
+      ['name'=>'Ivan Rodriguez Bedoya',             'initial'=>'I', 'when'=>'Hace 6 meses', 'text'=>'Excelente atención por parte de todo el personal, especialmente con la asistencia de Angie. El tratamiento con alineadores invisibles ha sido increíblemente práctico y completamente indoloro.'],
+      ['name'=>'James D Saavedra M',                'initial'=>'J', 'when'=>'Hace 6 meses', 'text'=>'Si quieres tener atención de primer nivel, seria y muy profesional, contacta de una a la Doc Gloria. Recomiendo totalmente a todo su equipo y me alegra no haberme equivocado al contratarlos para mi tratamiento dental.'],
+      ['name'=>'Martha Vásquez',                    'initial'=>'M', 'when'=>'Hace 6 meses', 'text'=>'Excelente atención, la Dra Cristina muy cálida y pensando siempre en el bienestar del paciente. El tratamiento de ortodoncia súper, de muy rápida adaptación.'],
+      ['name'=>'Alexandra Castro',                  'initial'=>'A', 'when'=>'Hace 5 meses', 'text'=>'Tengo mi tratamiento aquí, llevo 3 meses aproximadamente. Ha sido una excelente experiencia. Jessica ha hecho un buen trabajo junto con todas las doctoras.'],
+      ['name'=>'Wilmark Muñoz',                     'initial'=>'W', 'when'=>'Hace 6 meses', 'text'=>'No solo es bueno el tratamiento sino el servicio y la atención. Llevo dos semanas usando mi tratamiento y me gusta la eficiencia que tendrá a largo plazo para corregir mi sonrisa.'],
+      ['name'=>'Brenda Barragan',                   'initial'=>'B', 'when'=>'Hace 6 meses', 'text'=>'Definitivamente di en el lugar correcto al encontrar a la doctora Gloria. No solo es una excelente odontóloga, sino también una persona muy humana, dedicada y profesional. Mi tratamiento ha avanzado exactamente como ella me indicó.'],
+    ];
+    $rlPalette = ['#c4a47c','#9a7c52','#6a5236','#2b2b2b','#806248','#b89066','#4d4138','#a98a64','#705a40','#3d342a'];
+    $rlRenderCard = function($t, $color){ ?>
+      <article class="t-card">
+        <header class="t-card-head">
+          <span class="t-avatar" aria-hidden="true" style="background:<?= $color ?>"><?= htmlspecialchars($t['initial']) ?></span>
+          <div class="t-card-meta">
+            <span class="t-card-author"><?= htmlspecialchars($t['name']) ?></span>
+            <span class="t-card-time"><?= htmlspecialchars($t['when']) ?></span>
+          </div>
+          <svg class="t-google-mark" viewBox="0 0 24 24" aria-label="Reseña de Google" role="img">
+            <path fill="#4285F4" d="M22.5 12.25c0-.83-.07-1.62-.21-2.38H12v4.51h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.75h3.57c2.09-1.93 3.22-4.77 3.22-8.19z"/>
+            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.75c-.99.66-2.25 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+            <path fill="#FBBC05" d="M5.84 14.12A6.94 6.94 0 0 1 5.46 12c0-.74.13-1.45.38-2.12V7.04H2.18A11 11 0 0 0 1 12c0 1.78.43 3.46 1.18 4.96l3.66-2.84z"/>
+            <path fill="#EA4335" d="M12 5.38c1.62 0 3.07.56 4.21 1.65l3.16-3.16C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.04l3.66 2.84C6.71 7.31 9.14 5.38 12 5.38z"/>
+          </svg>
+        </header>
+        <div class="t-card-stars" aria-label="5 estrellas">
+          <svg viewBox="0 0 20 20"><path d="M10 1.5l2.6 5.3 5.9.9-4.3 4.1 1 5.7L10 14.9 4.8 17.5l1-5.7L1.5 7.7l5.9-.9L10 1.5z"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M10 1.5l2.6 5.3 5.9.9-4.3 4.1 1 5.7L10 14.9 4.8 17.5l1-5.7L1.5 7.7l5.9-.9L10 1.5z"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M10 1.5l2.6 5.3 5.9.9-4.3 4.1 1 5.7L10 14.9 4.8 17.5l1-5.7L1.5 7.7l5.9-.9L10 1.5z"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M10 1.5l2.6 5.3 5.9.9-4.3 4.1 1 5.7L10 14.9 4.8 17.5l1-5.7L1.5 7.7l5.9-.9L10 1.5z"/></svg>
+          <svg viewBox="0 0 20 20"><path d="M10 1.5l2.6 5.3 5.9.9-4.3 4.1 1 5.7L10 14.9 4.8 17.5l1-5.7L1.5 7.7l5.9-.9L10 1.5z"/></svg>
+        </div>
+        <p class="t-card-text"><?= htmlspecialchars($t['text']) ?></p>
+      </article>
+    <?php };
+    $rlRowA = array_slice($rlTestimonios, 0, 5);
+    $rlRowB = array_slice($rlTestimonios, 5, 5);
+    ?>
+
+    <div class="t-marquee" aria-label="Carrusel de reseñas de pacientes en Google">
+      <div class="t-row">
+        <div class="t-track t-track--ltr">
+          <?php for ($i = 0; $i < 2; $i++): ?>
+            <?php foreach ($rlRowA as $idx => $t) { $rlRenderCard($t, $rlPalette[$idx % count($rlPalette)]); } ?>
+          <?php endfor; ?>
+        </div>
+      </div>
+      <div class="t-row">
+        <div class="t-track t-track--rtl">
+          <?php for ($i = 0; $i < 2; $i++): ?>
+            <?php foreach ($rlRowB as $idx => $t) { $rlRenderCard($t, $rlPalette[($idx + 5) % count($rlPalette)]); } ?>
+          <?php endfor; ?>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-top:40px;">
       <button class="rl-cta" data-scroll="#agendar">
         <span>Agendar reunión virtual</span>
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
