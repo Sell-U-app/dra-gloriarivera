@@ -336,13 +336,19 @@ footer{background:#111111; color:#f5f0eb; padding:80px 32px 40px; font-family:"G
         <h2 class="rl-step-title">¡Mira el testimonio de Laura!</h2>
 
         <div class="rl-player" id="rl-player-laura" role="region" aria-label="Video testimonio de Laura">
-          <!-- [PLACEHOLDER] Reemplaza este iframe con tu embed real (Vidalytics / YouTube / Vimeo / Cloudinary) -->
-          <iframe
-            src="about:blank"
-            data-src-placeholder="Pega aquí el embed del testimonio de Laura"
-            title="Testimonio de Laura — ortodoncia invisible con la Dra. Gloria Rivera"
-            allow="autoplay; encrypted-media; picture-in-picture"
-            allowfullscreen></iframe>
+          <!-- Vidalytics embed · VSL Laura -->
+          <div id="vidalytics_embed_coyGCsb4gYkozhsH" style="width:100%; position:relative; padding-top:56.25%;"></div>
+          <script type="text/javascript">
+          (function (v, i, d, a, l, y, t, c, s) {
+              y='_'+d.toLowerCase();c=d+'L';if(!v[d]){v[d]={};}if(!v[c]){v[c]={};}if(!v[y]){v[y]={};}var vl='Loader',vli=v[y][vl],vsl=v[c][vl + 'Script'],vlf=v[c][vl + 'Loaded'],ve='Embed';
+              if (!vsl){vsl=function(u,cb){
+                  if(t){cb();return;}s=i.createElement("script");s.type="text/javascript";s.async=1;s.src=u;
+                  if(s.readyState){s.onreadystatechange=function(){if(s.readyState==="loaded"||s.readyState=="complete"){s.onreadystatechange=null;vlf=1;cb();}};}else{s.onload=function(){vlf=1;cb();};}
+                  i.getElementsByTagName("head")[0].appendChild(s);
+              };}
+              vsl(l+'loader.min.js',function(){if(!vli){var vlc=v[c][vl];vli=new vlc();}vli.loadScript(l+'player.min.js',function(){var vec=v[d][ve];t=new vec();t.run(a);});});
+          })(window, document, 'Vidalytics', 'vidalytics_embed_coyGCsb4gYkozhsH', 'https://fast.vidalytics.com/embeds/Ts0m5caS/coyGCsb4gYkozhsH/');
+          </script>
         </div>
 
         <button class="rl-cta" data-scroll="#agendar">
@@ -385,13 +391,19 @@ footer{background:#111111; color:#f5f0eb; padding:80px 32px 40px; font-family:"G
       <h2 id="iv-h" class="iv-h2">Le hicimos una <span class="accent">entrevista a Laura</span></h2>
 
       <div class="iv-player" id="iv-player-laura" role="region" aria-label="Entrevista a Laura">
-        <!-- [PLACEHOLDER] Reemplaza este iframe con tu embed real de la entrevista -->
-        <iframe
-          src="about:blank"
-          data-src-placeholder="Pega aquí el embed de la entrevista a Laura"
-          title="Entrevista a Laura — caso real de ortodoncia invisible"
-          allow="autoplay; encrypted-media; picture-in-picture"
-          allowfullscreen></iframe>
+        <!-- Vidalytics embed · Entrevista Laura -->
+        <div id="vidalytics_embed_laF0Yj4AFSPsvhf2" style="width:100%; position:relative; padding-top:56.25%;"></div>
+        <script type="text/javascript">
+        (function (v, i, d, a, l, y, t, c, s) {
+            y='_'+d.toLowerCase();c=d+'L';if(!v[d]){v[d]={};}if(!v[c]){v[c]={};}if(!v[y]){v[y]={};}var vl='Loader',vli=v[y][vl],vsl=v[c][vl + 'Script'],vlf=v[c][vl + 'Loaded'],ve='Embed';
+            if (!vsl){vsl=function(u,cb){
+                if(t){cb();return;}s=i.createElement("script");s.type="text/javascript";s.async=1;s.src=u;
+                if(s.readyState){s.onreadystatechange=function(){if(s.readyState==="loaded"||s.readyState=="complete"){s.onreadystatechange=null;vlf=1;cb();}};}else{s.onload=function(){vlf=1;cb();};}
+                i.getElementsByTagName("head")[0].appendChild(s);
+            };}
+            vsl(l+'loader.min.js',function(){if(!vli){var vlc=v[c][vl];vli=new vlc();}vli.loadScript(l+'player.min.js',function(){var vec=v[d][ve];t=new vec();t.run(a);});});
+        })(window, document, 'Vidalytics', 'vidalytics_embed_laF0Yj4AFSPsvhf2', 'https://fast.vidalytics.com/embeds/Ts0m5caS/laF0Yj4AFSPsvhf2/');
+        </script>
       </div>
 
       <button class="rl-cta" data-scroll="#agendar">
