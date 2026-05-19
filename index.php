@@ -504,7 +504,10 @@ img{max-width:100%; display:block;}
 .t-google-mark{flex:0 0 auto; width:18px; height:18px;}
 .t-card-stars{display:inline-flex; gap:2px;}
 .t-card-stars svg{width:15px; height:15px; fill:#F5B400;}
-.t-card-text{font-family:var(--font-display); font-style:italic; font-size:15.5px; line-height:1.6; color:var(--carbon); margin:2px 0 0; letter-spacing:-0.005em;}
+.t-card-text{font-family:var(--font-display); font-style:italic; font-size:15.5px; line-height:1.6; color:var(--carbon); margin:2px 0 0; letter-spacing:-0.005em;
+  display:-webkit-box; -webkit-line-clamp:6; -webkit-box-orient:vertical; overflow:hidden;
+}
+.t-card{min-height:230px;}
 
 /* Tablet */
 @media(max-width:980px){
@@ -1456,30 +1459,29 @@ img, video, iframe{max-width:100%; height:auto;}
 
   <?php
   /*
-    Reseñas reales tomadas de búsquedas web públicas (Google / Doctoralia / redes sociales).
-    Los textos marcados con `verified => true` se transcribieron tal cual aparecieron en los resultados públicos.
-    Recomendación: reemplazar los nombres por los que aparecen realmente en Google Maps
-    para máxima fidelidad cuando el cliente los provea.
+    Reseñas reales extraídas verbatim del perfil de Google Maps de
+    "Dra Gloria Rivera - Invisalign - Ortodoncia Invisible Bogota"
+    (kgmid /g/11tgf8bx3w, share.google/sz7CwtDjISEzfwFRo). 4.9★ · 104 reseñas.
+    Textos cortados en el último punto antes de la elipsis para mantenerlos completos en la tarjeta.
   */
   $testimonios = [
-    ['name'=>'Diana M.',    'initial'=>'D', 'when'=>'Hace 2 meses',  'text'=>'Estoy muy contenta con el servicio de la Dra. Gloria y de todo su equipo de trabajo. La mejor experiencia.', 'verified'=>true],
-    ['name'=>'Carolina R.', 'initial'=>'C', 'when'=>'Hace 3 meses',  'text'=>'Las personas son muy atentas, me contestan rápido si tengo alguna duda. La experiencia ha sido espectacular.', 'verified'=>true],
-    ['name'=>'Andrea L.',   'initial'=>'A', 'when'=>'Hace 1 mes',    'text'=>'La doctora es muy querida, muy atenta. Se nota que se apasiona por lo que hace.', 'verified'=>true],
-    ['name'=>'Juan P.',     'initial'=>'J', 'when'=>'Hace 4 meses',  'text'=>'Me siento como en un hogar, nada como lo que haya vivido antes. Hay un ambiente de familiaridad.', 'verified'=>true],
-    ['name'=>'Laura M.',    'initial'=>'L', 'when'=>'Hace 6 meses',  'text'=>'La Dra. Gloria me ayudó paso a paso. Hoy sonrío con más confianza que nunca y recomiendo totalmente sus servicios.', 'verified'=>true],
-    ['name'=>'Mariana V.',  'initial'=>'M', 'when'=>'Hace 2 semanas','text'=>'Llegué muy insegura con mi sonrisa y hoy puedo decir que fue la mejor decisión. La Dra. explica cada etapa con paciencia y dedicación.', 'verified'=>false],
-    ['name'=>'Camilo H.',   'initial'=>'C', 'when'=>'Hace 5 meses',  'text'=>'Profesionalismo absoluto. El tratamiento con Invisalign me cambió la sonrisa y la forma de hablar en reuniones de trabajo.', 'verified'=>false],
-    ['name'=>'Sofía R.',    'initial'=>'S', 'when'=>'Hace 7 meses',  'text'=>'Llevo varios meses con mis alineadores y los resultados son visibles desde las primeras semanas. La Dra. Gloria es muy clara con los tiempos.', 'verified'=>false],
-    ['name'=>'Felipe O.',   'initial'=>'F', 'when'=>'Hace 3 meses',  'text'=>'Excelente atención de principio a fin. El consultorio es muy limpio y la doctora es absolutamente comprometida con cada caso.', 'verified'=>false],
-    ['name'=>'Valentina G.','initial'=>'V', 'when'=>'Hace 1 año',    'text'=>'Terminé mi tratamiento y solo tengo palabras de agradecimiento. Resultados naturales y un acompañamiento humano que se siente desde la primera cita.', 'verified'=>false],
+    ['name'=>'Edwin Villamil',                    'initial'=>'E', 'when'=>'Hace 5 meses', 'text'=>'La experiencia ha sido maravillosa, el profesionalismo, el servicio, la calidad humana y acompañamiento han estado al nivel de mis espectativas. Hoy termino la fase de alineadores y el resultado es excelente.'],
+    ['name'=>'Iam Guev',                          'initial'=>'I', 'when'=>'Hace 5 meses', 'text'=>'Inicié mi tratamiento de ortodoncia el 29 de julio de 2024 y, hasta el momento, ha sido una experiencia altamente satisfactoria. Los avances han mejorado notablemente mi salud oral y la alineación de mis dientes.'],
+    ['name'=>'Juan Cárdenas',                     'initial'=>'J', 'when'=>'Hace 5 meses', 'text'=>'Mi experiencia con la Dra. Gloria Rivera y su tratamiento con Invisalign ha sido excepcional. Desde la primera cita sentí una atención completamente personalizada.'],
+    ['name'=>'María Alejandra Moncaleano',        'initial'=>'M', 'when'=>'Hace 5 meses', 'text'=>'La doctora Gloria y absolutamente cada persona de su equipo se destaca por su profesionalismo y calidad humana. Destaco la dedicación, comprensión y compromiso que han tenido conmigo.'],
+    ['name'=>'Ivan Rodriguez Bedoya',             'initial'=>'I', 'when'=>'Hace 6 meses', 'text'=>'Excelente atención por parte de todo el personal, especialmente con la asistencia de Angie. El tratamiento con alineadores invisibles ha sido increíblemente práctico y completamente indoloro.'],
+    ['name'=>'James D Saavedra M',                'initial'=>'J', 'when'=>'Hace 6 meses', 'text'=>'Si quieres tener atención de primer nivel, seria y muy profesional, contacta de una a la Doc Gloria. Recomiendo totalmente a todo su equipo y me alegra no haberme equivocado al contratarlos para mi tratamiento dental.'],
+    ['name'=>'Martha Vásquez',                    'initial'=>'M', 'when'=>'Hace 6 meses', 'text'=>'Excelente atención, la Dra Cristina muy cálida y pensando siempre en el bienestar del paciente. El tratamiento de ortodoncia súper, de muy rápida adaptación.'],
+    ['name'=>'Alexandra Castro',                  'initial'=>'A', 'when'=>'Hace 5 meses', 'text'=>'Tengo mi tratamiento aquí, llevo 3 meses aproximadamente. Ha sido una excelente experiencia. Jessica ha hecho un buen trabajo junto con todas las doctoras.'],
+    ['name'=>'Wilmark Muñoz',                     'initial'=>'W', 'when'=>'Hace 6 meses', 'text'=>'No solo es bueno el tratamiento sino el servicio y la atención. Llevo dos semanas usando mi tratamiento y me gusta la eficiencia que tendrá a largo plazo para corregir mi sonrisa.'],
+    ['name'=>'Brenda Barragan',                   'initial'=>'B', 'when'=>'Hace 6 meses', 'text'=>'Definitivamente di en el lugar correcto al encontrar a la doctora Gloria. No solo es una excelente odontóloga, sino también una persona muy humana, dedicada y profesional. Mi tratamiento ha avanzado exactamente como ella me indicó.'],
   ];
   // Avatar palette (warm tones aligned with brand)
   $palette = ['#c4a47c','#9a7c52','#6a5236','#2b2b2b','#806248','#b89066','#4d4138','#a98a64','#705a40','#3d342a'];
 
   $renderCard = function($t, $color){
-    $verifiedAttr = !empty($t['verified']) ? ' data-verified="true"' : '';
     ?>
-    <article class="t-card"<?= $verifiedAttr ?>>
+    <article class="t-card">
       <header class="t-card-head">
         <span class="t-avatar" aria-hidden="true" style="background:<?= $color ?>"><?= htmlspecialchars($t['initial']) ?></span>
         <div class="t-card-meta">
