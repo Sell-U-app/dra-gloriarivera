@@ -182,6 +182,53 @@ footer{background:#111111; color:#f5f0eb; padding:80px 32px 40px; font-family:"G
   .iv-footer-bottom .script{ font-size:21px; }
 }
 @media(max-width:380px){ footer{ padding:48px 16px 24px; } }
+
+/* ============================================================
+   MOBILE-FIRST RESPONSIVE — page-level
+   ============================================================ */
+@media(max-width:900px){
+  main{padding-top:104px;}
+  .vsl-section{padding:32px 24px 56px;}
+  .vsl-inner{gap:36px;}
+  .vsl-subhead{font-size:17px;}
+  .cal-section{padding:64px 24px 80px;}
+  .cal-header{margin-bottom:32px;}
+  .cal-copy{font-size:15.5px;}
+}
+@media(max-width:600px){
+  main{padding-top:96px;}
+  .vsl-section{padding:24px 16px 48px;}
+  .vsl-inner{gap:28px;}
+  .vsl-promise{padding:0;}
+  .eyebrow{font-size:10.5px; letter-spacing:.2em; margin-bottom:14px;}
+  .vsl-eyebrow::before{width:24px; margin-right:10px;}
+  .vsl-h1{font-size:clamp(1.65rem, 7vw, 2.05rem); line-height:1.15; margin:0 0 16px;}
+  .vsl-subhead{font-size:15px;}
+  .vsl-video-block{gap:14px;}
+  .vsl-step-label{font-size:10.5px; letter-spacing:.18em;}
+  .vsl-player{border-radius:6px;}
+  .vsl-cta{padding:16px 24px; font-size:14px; width:100%; max-width:340px; min-height:50px;}
+  .vsl-cta-note{font-size:12.5px;}
+  .cal-section{padding:56px 16px 64px;}
+  .cal-header{margin-bottom:26px;}
+  .cal-h2{font-size:clamp(1.7rem, 7.5vw, 2.2rem); margin:0 0 14px;}
+  .cal-copy{font-size:15px; line-height:1.6;}
+  .cal-embed{border-radius:6px; min-height:660px;}
+  .cal-embed iframe{min-height:660px;}
+  .cal-skel{font-size:12px;}
+  .cal-foot{font-size:14px;}
+}
+@media(max-width:380px){
+  .vsl-section{padding:20px 14px 44px;}
+  .vsl-h1{font-size:clamp(1.55rem, 7.5vw, 1.9rem);}
+  .vsl-cta{padding:15px 20px; font-size:13.5px;}
+  .cal-section{padding:48px 14px 56px;}
+}
+
+/* Tap-target accessibility: 44px min height for CTAs on phones */
+@media(max-width:768px){
+  .gr-cta, .vsl-cta{min-height:44px;}
+}
 </style>
 </head>
 <body>
