@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Invisalign® en Bogotá — Ortodoncia invisible | Dra. Gloria Rivera</title>
-<meta name="description" content="Invisalign® en Bogotá con la Dra. Gloria Rivera, Top Doctor Emerald. Plan digital ClinCheck, alineadores invisibles a medida, acompañamiento personal. Valoración virtual gratuita." />
+<meta name="description" content="Invisalign® en Bogotá con la Dra. Gloria Rivera, Top Doctor Diamond. Plan digital ClinCheck, alineadores invisibles a medida, acompañamiento personal. Valoración virtual gratuita." />
 <meta name="robots" content="index, follow, max-image-preview:large" />
 <meta name="theme-color" content="#f5f0eb" />
 <link rel="canonical" href="https://dragloriarivera.com/invisalign" />
@@ -13,7 +13,7 @@
 <meta property="og:locale" content="es_CO" />
 <meta property="og:site_name" content="Dra. Gloria Rivera — Ortodoncia invisible" />
 <meta property="og:title" content="Invisalign® en Bogotá | Dra. Gloria Rivera" />
-<meta property="og:description" content="Ortodoncia invisible en Bogotá con Top Doctor Emerald. Plan digital previo, acompañamiento personal." />
+<meta property="og:description" content="Ortodoncia invisible en Bogotá con Top Doctor Diamond. Plan digital previo, acompañamiento personal." />
 <meta property="og:url" content="https://dragloriarivera.com/invisalign" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -77,10 +77,10 @@ img{max-width:100%; height:auto; display:block}
 a{color:inherit; text-decoration:none}
 button{font-family:inherit}
 
-.skip-link{position:absolute; left:-9999px; top:0; background:#111; color:#faf6f1; padding:12px 18px; z-index:10000; font-weight:500; font-size:14px; border-radius:4px;}
-.skip-link:focus{left:16px; top:16px;}
+.skip-link{position:absolute; left:-9999px; top:0; background:#111; color:#faf6f1; padding:12px 18px; z-index:10000; font-weight:500; font-size:14px; border-radius:4px; box-shadow:inset 0 0 0 1px #c4a47c;}
+.skip-link:focus{left:16px; top:16px; outline:2px solid #c4a47c;}
 
-/* ===== UTILITY BAR + NAV ===== */
+/* ===== UTILITY BAR + NAV (partial compartido) ===== */
 .gr-utility{position:fixed; top:0; left:0; right:0; height:32px; background:#111; color:#f5f0eb; display:flex; align-items:center; justify-content:flex-end; padding:0 32px; z-index:51; transition:transform var(--dur-normal) var(--ease-premium); font-size:10px; letter-spacing:.24em; text-transform:uppercase; font-weight:500; overflow:hidden;}
 .gr-utility.hidden{transform:translateY(-100%);}
 .gr-utility .uitem{color:rgba(245,240,235,.75); display:inline-flex; gap:10px; align-items:center;}
@@ -329,26 +329,8 @@ main{padding-top:120px;}
 .reveal.visible{opacity:1; transform:none;}
 @media (prefers-reduced-motion: reduce){.reveal{opacity:1; transform:none; transition:none;}}
 
-/* ===== FOOTER ===== */
-.footer{background:var(--carbon); color:var(--beige); padding:64px 32px 32px;}
-.footer-inner{max-width:var(--container); margin:0 auto;}
-.footer-top{display:grid; grid-template-columns:1.4fr 1fr 1fr 1fr; gap:48px; padding-bottom:48px; border-bottom:1px solid rgba(245,240,235,0.16);}
-@media(max-width:800px){.footer-top{grid-template-columns:1fr 1fr; gap:32px;}}
-.footer-tagline{color:rgba(245,240,235,0.7); font-size:14px; line-height:1.6; max-width:32ch; margin:0;}
-.footer-brand-name{font-family:var(--font-display); color:var(--beige); font-size:24px; margin:0 0 14px;}
-.iv-footer-logo{height:44px; width:auto; margin-bottom:24px; display:block;}
-@media(max-width:600px){.iv-footer-logo{height:38px; margin-bottom:18px;}}
-.footer-col-label{font-size:10px; letter-spacing:.22em; text-transform:uppercase; color:var(--dorado); margin-bottom:16px; font-weight:500;}
-.footer-col ul{list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:10px;}
-.footer-col a{color:rgba(245,240,235,0.78); font-size:14px;}
-.footer-col a:hover{color:var(--dorado);}
-.footer-bottom{display:flex; justify-content:space-between; align-items:center; padding-top:24px; flex-wrap:wrap; gap:16px;}
-.footer-bottom .copy{font-size:12px; color:rgba(245,240,235,0.5);}
-.footer-bottom .signature{font-family:var(--font-script); font-size:26px; color:var(--dorado);}
-
-
 /* ============================================================
-   FOOTER UNIFICADO — inyectado para asegurar estilos consistentes
+   FOOTER UNIFICADO — usa partial /partials/footer.php
    ============================================================ */
 footer{
   background:#111111;
@@ -365,18 +347,67 @@ footer{
   border-bottom:1px solid rgba(245,240,235,.16);
 }
 .iv-footer-grid > div{ min-width:0; }
-.iv-footer-logo{ height:70px; width:auto; margin-bottom:24px; display:block; }
-.iv-footer-grid .lead{ color:rgba(245,240,235,.7); font-size:14px; line-height:1.6; max-width:32ch; margin:0; }
-.iv-footer-col-label{ font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:#c4a47c; margin-bottom:18px; font-weight:500; }
-.iv-footer-grid ul{ list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:10px; }
+.iv-footer-logo{
+  height:70px;
+  width:auto;
+  margin-bottom:24px;
+  display:block;
+}
+.iv-footer-grid .lead{
+  color:rgba(245,240,235,.7);
+  font-size:14px;
+  line-height:1.6;
+  max-width:32ch;
+  margin:0;
+}
+.iv-footer-col-label{
+  font-size:11px;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  color:#c4a47c;
+  margin-bottom:18px;
+  font-weight:500;
+}
+.iv-footer-grid ul{
+  list-style:none;
+  padding:0;
+  margin:0;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
 .iv-footer-grid ul li{ list-style:none; }
-.iv-footer-grid ul a{ color:rgba(245,240,235,.8); font-size:14px; text-decoration:none; transition:color 260ms cubic-bezier(.22,1,.36,1); }
+.iv-footer-grid ul a{
+  color:rgba(245,240,235,.8);
+  font-size:14px;
+  text-decoration:none;
+  transition:color 260ms cubic-bezier(.22,1,.36,1);
+}
 .iv-footer-grid ul a:hover{ color:#c4a47c; }
-.iv-footer-bottom{ display:flex; justify-content:space-between; align-items:center; padding-top:28px; gap:16px; flex-wrap:wrap; }
-.iv-footer-bottom .copy{ font-size:12px; color:rgba(245,240,235,.5); }
-.iv-footer-bottom .script{ font-family:"DM Serif Display","Cormorant Garamond",Georgia,serif; font-size:17px; color:#c4a47c; }
-@media(max-width:1024px){ .iv-footer-grid{ grid-template-columns:1fr 1fr; gap:32px; } }
-@media(max-width:767px){ .iv-footer-grid{ grid-template-columns:1fr; } footer{ padding:56px 24px 32px; } }
+.iv-footer-bottom{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding-top:28px;
+  gap:16px;
+  flex-wrap:wrap;
+}
+.iv-footer-bottom .copy{
+  font-size:12px;
+  color:rgba(245,240,235,.5);
+}
+.iv-footer-bottom .script{
+  font-family:"DM Serif Display","Cormorant Garamond",Georgia,serif;
+  font-size:17px;
+  color:#c4a47c;
+}
+@media(max-width:1024px){
+  .iv-footer-grid{ grid-template-columns:1fr 1fr; gap:32px; }
+}
+@media(max-width:767px){
+  .iv-footer-grid{ grid-template-columns:1fr; }
+  footer{ padding:56px 24px 32px; }
+}
 @media(max-width:600px){
   footer{ padding:56px 20px 28px; }
   .iv-footer-grid{ padding-bottom:36px; gap:28px; }
@@ -387,14 +418,47 @@ footer{
   .iv-footer-bottom{ flex-direction:column; align-items:flex-start; gap:10px; padding-top:22px; }
   .iv-footer-bottom .script{ font-size:21px; }
 }
-@media(max-width:380px){ footer{ padding:48px 16px 24px; } }
+@media(max-width:380px){
+  footer{ padding:48px 16px 24px; }
+}
 
+/* ============================================================
+   MOBILE-FIRST RESPONSIVE — page-level
+   ============================================================ */
+@media(max-width:900px){
+  main{padding-top:104px;}
+  .iv-hero{padding:24px 0 64px;}
+  .iv-container, .iv-container-wide{padding:0 24px;}
+  .iv-section{padding:72px 0;}
+  .iv-section--lg{padding:88px 0;}
+}
+@media(max-width:600px){
+  main{padding-top:96px;}
+  .iv-hero{padding:16px 0 48px;}
+  .iv-container, .iv-container-wide{padding:0 16px;}
+  .iv-section{padding:56px 0;}
+  .iv-section--lg{padding:72px 0;}
+  .iv-hero h1{font-size:clamp(1.75rem, 8vw, 2.4rem);}
+  .iv-hero-sub{font-size:15.5px;}
+  .iv-hero-meta{gap:24px;}
+  .iv-stat-num{font-size:26px;}
+  .iv-btn{padding:14px 22px; font-size:13.5px; min-height:44px;}
+  .iv-row-24{gap:12px;}
+  .iv-final-wrap{padding:56px 18px;}
+  .iv-callout{padding:24px 18px;}
+  .iv-card{padding:24px 20px;}
+}
+@media(max-width:380px){
+  .iv-container, .iv-container-wide{padding:0 14px;}
+  .iv-section{padding:48px 0;}
+}
 </style>
 </head>
 <body>
+
 <?php include __DIR__ . '/partials/header.php'; ?>
 
-<main id="top">
+<main id="contenido">
 
   <!-- ============ HERO ============ -->
   <section class="iv-hero">
@@ -418,21 +482,25 @@ footer{
             Alineadores invisibles fabricados a medida, plan digital ClinCheck personalizado y acompañamiento clínico personal de la doctora. Valoración virtual sin costo.
           </p>
 
-          <span class="iv-pill" aria-label="Certificación Invisalign Top Doctor Emerald">
+          <span class="iv-pill" aria-label="Certificación Invisalign Top Doctor Diamond">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.5 4.5L18 9l-4.5 1.5L12 15l-1.5-4.5L6 9l4.5-1.5L12 3z"/></svg>
-            Invisalign Top Doctor Emerald
+            Invisalign Top Doctor Diamond
           </span>
 
           <div class="iv-row-24" style="margin-top:8px;">
-            <a href="/agenda-valoracion" class="iv-btn iv-btn-primary iv-pulse">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-              Agenda ahora
+            <a href="/vsl" class="iv-btn iv-btn-primary iv-pulse">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.14v13.72c0 .79.87 1.27 1.54.85l10.79-6.86a1 1 0 0 0 0-1.7L9.54 4.29A1 1 0 0 0 8 5.14Z"/></svg>
+              Ver video explicativo
+            </a>
+            <a href="https://wa.me/573100000000?text=Hola%20Dra.%20Gloria%2C%20quiero%20saber%20si%20Invisalign%20es%20para%20mi" target="_blank" rel="noopener" class="iv-btn iv-btn-ghost">
+              Hablar por WhatsApp
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-1.2 4.3 8.5 8.5 0 0 1-7.3 4.2 8.4 8.4 0 0 1-4.3-1.2L3 20l1.2-5.2A8.4 8.4 0 0 1 3 10.5 8.5 8.5 0 0 1 7.2 3.2 8.4 8.4 0 0 1 11.5 2h.5a8.5 8.5 0 0 1 8 8v1.5z"/></svg>
             </a>
           </div>
 
           <div class="iv-hero-meta">
             <div>
-              <div class="iv-stat-num gold" style="font-style:italic;">Emerald</div>
+              <div class="iv-stat-num gold" style="font-style:italic;">Diamond</div>
               <div class="iv-stat-label">Top Doctor · Invisalign 2025</div>
             </div>
             <div>
@@ -546,7 +614,7 @@ footer{
       <div class="iv-callout reveal">
         <span class="iv-eyebrow">¿No estás seguro?</span>
         <p>En la valoración revisamos tu caso específico y te digo con honestidad si Invisalign es la mejor opción para ti. Si no lo es, te oriento sobre el tratamiento que sí lo sería.</p>
-        <a href="/agenda-valoracion" class="iv-link">Agenda ahora →</a>
+        <a href="/agenda-valoracion" class="iv-link">Conoce tu plan en valoración →</a>
       </div>
     </div>
   </section>
@@ -589,7 +657,7 @@ footer{
 
           <div class="iv-diff-signature">
             <span class="iv-sig-name">Dra. Gloria Rivera</span>
-            <span class="iv-sig-meta"><a href="/ladoctora">Ortodoncista · Top Doctor Emerald</a></span>
+            <span class="iv-sig-meta"><a href="/ladoctora">Ortodoncista · Top Doctor Diamond</a></span>
           </div>
         </div>
       </div>
@@ -714,11 +782,14 @@ footer{
           </p>
 
           <div class="iv-final-cta-row">
-            <a href="/agenda-valoracion" class="iv-btn iv-btn-light iv-pulse">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-              Agenda ahora
+            <a href="/vsl" class="iv-btn iv-btn-light iv-pulse">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.14v13.72c0 .79.87 1.27 1.54.85l10.79-6.86a1 1 0 0 0 0-1.7L9.54 4.29A1 1 0 0 0 8 5.14Z"/></svg>
+              Ver video explicativo
             </a>
-            
+            <a href="https://wa.me/573100000000?text=Hola%20Dra.%20Gloria%2C%20quiero%20saber%20si%20Invisalign%20es%20para%20mi" target="_blank" rel="noopener" class="iv-btn iv-btn-ghost-light">
+              Hablar por WhatsApp
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-1.2 4.3 8.5 8.5 0 0 1-7.3 4.2 8.4 8.4 0 0 1-4.3-1.2L3 20l1.2-5.2A8.4 8.4 0 0 1 3 10.5 8.5 8.5 0 0 1 7.2 3.2 8.4 8.4 0 0 1 11.5 2h.5a8.5 8.5 0 0 1 8 8v1.5z"/></svg>
+            </a>
           </div>
 
           <div class="iv-final-sig">
@@ -733,7 +804,7 @@ footer{
 
 </main>
 
-<!-- ===== FOOTER ===== -->
+<!-- ===== FOOTER (partial compartido) ===== -->
 <?php include __DIR__ . '/partials/footer.php'; ?>
 
 <script>
@@ -745,8 +816,8 @@ footer{
   var util = document.getElementById('gr-utility');
   function onScroll(){
     var y = window.scrollY;
-    if(y > 40){ nav.classList.add('scrolled'); util.classList.add('hidden'); }
-    else { nav.classList.remove('scrolled'); util.classList.remove('hidden'); }
+    if(nav && y > 40){ nav.classList.add('scrolled'); util && util.classList.add('hidden'); }
+    else { nav && nav.classList.remove('scrolled'); util && util.classList.remove('hidden'); }
   }
   window.addEventListener('scroll', onScroll, { passive:true });
   onScroll();
@@ -794,7 +865,7 @@ footer{
   if(!track) return;
   var items = [
     'Plan digital ClinCheck',
-    'Top Doctor Emerald 2025',
+    'Top Doctor Diamond 2025',
     'Acompañamiento personal',
     'Escaneo iTero',
     'Sin metal visible',
@@ -926,7 +997,7 @@ footer{
      a:['Invisalign® es un tratamiento de ortodoncia que usa alineadores transparentes removibles fabricados a medida por Align Technology en Estados Unidos. Cada alineador mueve los dientes de forma gradual siguiendo un plan diseñado digitalmente en ClinCheck.',
         'Es invisible, removible y permite mantener tu rutina de higiene normal. Es ortodoncia, no carillas — alinea tus dientes reales.']},
     {q:'¿Cuánto cuesta Invisalign® en Bogotá?',
-     a:['El precio depende del tipo de tratamiento (Express, Lite, Moderate, Comprehensive), la complejidad de tu caso y la duración estimada. No publico un precio fijo porque cada caso es distinto y un número en internet no te ayuda a decidir. En la valoración te doy un rango realista basado en tu diagnóstico específico, qué incluye y formas de financiación. <a href="/agenda-valoracion" class="iv-link">Agenda ahora →</a>']},
+     a:['El precio depende del tipo de tratamiento (Express, Lite, Moderate, Comprehensive), la complejidad de tu caso y la duración estimada. No publico un precio fijo porque cada caso es distinto y un número en internet no te ayuda a decidir. En la valoración te doy un rango realista basado en tu diagnóstico específico, qué incluye y formas de financiación. <a href="/agenda-valoracion" class="iv-link">Conoce tu plan en valoración →</a>']},
     {q:'¿Invisalign® duele?',
      a:['No duele, pero los primeros 2–3 días con un alineador nuevo sientes presión y molestia leve. Es la fuerza necesaria para mover los dientes.',
         'La diferencia con brackets es importante: con Invisalign no hay alambres ni elementos que rocen tus mejillas o labios. Después de los primeros días con cada nuevo alineador, te olvidas de que lo tienes puesto.']},
