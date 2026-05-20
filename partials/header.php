@@ -17,15 +17,15 @@
 
       <div class="gr-links">
         <a href="/" class="gr-link">Inicio</a>
-        <a href="/invisalign-bogota" class="gr-link">Invisalign</a>
+        <a href="/invisalign" class="gr-link">Invisalign</a>
         <a href="/resultados" class="gr-link">Resultados</a>
         <span class="gr-link-sep" aria-hidden="true"></span>
         <a href="/ladoctora" class="gr-link">La Doctora</a>
-        <a href="/blog" class="gr-link">Blog</a>
+        <a href="/blogs" class="gr-link">Blog</a>
       </div>
 
       <div class="gr-cta-zone">
-        <a href="/agendar-valoracion" class="gr-cta" id="nav-cta">
+        <a href="/agenda-valoracion" class="gr-cta" id="nav-cta">
           <span class="gr-cta-label">AGENDA AHORA</span>
           <svg class="gr-cta-arrow" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="square" aria-hidden="true">
             <path d="M3.5 10.5 L10.5 3.5"/><path d="M5 3.5 L10.5 3.5 L10.5 9"/>
@@ -53,15 +53,15 @@
     <div class="gr-overlay-links">
       <a href="/" class="gr-overlay-link">Inicio</a>
       <span class="gr-overlay-divider"></span>
-      <a href="/invisalign-bogota" class="gr-overlay-link">Invisalign</a>
+      <a href="/invisalign" class="gr-overlay-link">Invisalign</a>
       <span class="gr-overlay-divider"></span>
       <a href="/resultados" class="gr-overlay-link">Resultados</a>
       <span class="gr-overlay-divider"></span>
       <a href="/ladoctora" class="gr-overlay-link">La Doctora</a>
       <span class="gr-overlay-divider"></span>
-      <a href="/blog" class="gr-overlay-link">Blog</a>
+      <a href="/blogs" class="gr-overlay-link">Blog</a>
     </div>
-    <a href="/agendar-valoracion" class="gr-overlay-cta" id="overlay-cta">
+    <a href="/agenda-valoracion" class="gr-overlay-cta" id="overlay-cta">
       Agenda tu valoración
       <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="square" aria-hidden="true">
         <path d="M3.5 10.5 L10.5 3.5"/><path d="M5 3.5 L10.5 3.5 L10.5 9"/>

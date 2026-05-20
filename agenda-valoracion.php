@@ -7,7 +7,7 @@
 <meta name="description" content="Agenda tu valoración personalizada de Invisalign® con la Dra. Gloria Rivera en Bogotá. Diagnóstico inicial y orientación profesional sin compromiso." />
 <meta name="robots" content="index, follow, max-image-preview:large" />
 <meta name="theme-color" content="#f5f0eb" />
-<link rel="canonical" href="https://dragloriarivera.com/agendar-valoracion" />
+<link rel="canonical" href="https://dragloriarivera.com/agenda-valoracion" />
 
 <!-- Open Graph -->
 <meta property="og:type" content="website" />
@@ -15,7 +15,7 @@
 <meta property="og:site_name" content="Dra. Gloria Rivera — Ortodoncia invisible" />
 <meta property="og:title" content="Agenda tu valoración con la Dra. Gloria Rivera | Invisalign® Bogotá" />
 <meta property="og:description" content="Valoración virtual gratuita de 30 minutos con la Dra. Gloria Rivera." />
-<meta property="og:url" content="https://dragloriarivera.com/agendar-valoracion" />
+<meta property="og:url" content="https://dragloriarivera.com/agenda-valoracion" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +30,7 @@
   "@context": "https://schema.org",
   "@type": "ContactPage",
   "name": "Agenda tu valoración con la Dra. Gloria Rivera",
-  "url": "https://dragloriarivera.com/agendar-valoracion",
+  "url": "https://dragloriarivera.com/agenda-valoracion",
   "inLanguage": "es-CO",
   "description": "Valoración virtual gratuita de 30 minutos.",
   "mainEntity": {

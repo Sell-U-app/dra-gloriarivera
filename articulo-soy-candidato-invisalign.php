@@ -11,10 +11,10 @@
   {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://dragloriarivera.com/blog/soy-candidato-invisalign" },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://dragloriarivera.com/blogs/soy-candidato-invisalign" },
     "headline": "¿Soy candidato para Invisalign®? Autodiagnóstico paso a paso",
     "description": "Guía clínica honesta para orientarte sobre si Invisalign® puede ser una opción para tu caso. Problemas que resuelve, casos donde no es suficiente y autodiagnóstico con 5 preguntas.",
-    "image": "https://dragloriarivera.com/blog/soy-candidato-invisalign/featured.webp",
+    "image": "https://dragloriarivera.com/blogs/soy-candidato-invisalign/featured.webp",
     "author": { "@type": "Person", "name": "Dra. Gloria Rivera", "url": "https://dragloriarivera.com" },
     "publisher": { "@type": "Organization", "name": "Dra. Gloria Rivera — Ortodoncia invisible", "logo": { "@type": "ImageObject", "url": "https://dragloriarivera.com/assets/logos/logo-dark.png" } },
     "datePublished": "2026-05-14",
@@ -29,9 +29,9 @@
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://dragloriarivera.com/" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://dragloriarivera.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "Tratamiento", "item": "https://dragloriarivera.com/blog?categoria=tratamiento" },
-      { "@type": "ListItem", "position": 4, "name": "¿Soy candidato para Invisalign®?", "item": "https://dragloriarivera.com/blog/soy-candidato-invisalign" }
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://dragloriarivera.com/blogs" },
+      { "@type": "ListItem", "position": 3, "name": "Tratamiento", "item": "https://dragloriarivera.com/blogs?categoria=tratamiento" },
+      { "@type": "ListItem", "position": 4, "name": "¿Soy candidato para Invisalign®?", "item": "https://dragloriarivera.com/blogs/soy-candidato-invisalign" }
     ]
   }
   </script>
@@ -1952,7 +1952,7 @@ body{padding-top:0;}
       <nav class="bp-crumbs" aria-label="Migas de pan">
         <a href="/">Inicio</a>
         <span class="sep">›</span>
-        <a href="/blog">Blog</a>
+        <a href="/blogs">Blog</a>
         <span class="sep">›</span>
         <a href="/blog?categoria=tratamiento">Tratamiento</a>
         <span class="sep">›</span>
@@ -2004,7 +2004,7 @@ body{padding-top:0;}
 
       <p>En este artículo te explico de forma honesta qué problemas suele tratar Invisalign®, en qué casos no es suficiente por sí solo, y te dejo un autodiagnóstico con 5 preguntas para que tengas una primera idea antes de agendar una valoración.</p>
 
-      <p>Antes de empezar, una aclaración importante: esto es una guía orientativa, no un diagnóstico clínico. Determinar realmente si eres candidato requiere <a class="inline-link" href="/invisalign-bogota">examen físico, escaneo iTero, evaluación de tu mordida</a>, encías y hueso. Lo que sigue te ayuda a llegar mejor preparado a esa valoración, no a reemplazarla.</p>
+      <p>Antes de empezar, una aclaración importante: esto es una guía orientativa, no un diagnóstico clínico. Determinar realmente si eres candidato requiere <a class="inline-link" href="/invisalign">examen físico, escaneo iTero, evaluación de tu mordida</a>, encías y hueso. Lo que sigue te ayuda a llegar mejor preparado a esa valoración, no a reemplazarla.</p>
     </section>
 
     <!-- ───── Sección 2: 8 problemas que sí resuelve ───── -->

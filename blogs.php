@@ -6,14 +6,14 @@
 <title>Blog sobre Invisalign® y ortodoncia invisible | Dra. Gloria Rivera</title>
 <meta name="description" content="Guías honestas sobre Invisalign en Bogotá: precios, dolor, duración, candidatura, cuidado y más. Por la Dra. Gloria Rivera, Top Doctor Emerald." />
 <meta name="author" content="Dra. Gloria Rivera" />
-<link rel="canonical" href="https://dragloriarivera.com/blog" />
+<link rel="canonical" href="https://dragloriarivera.com/blogs" />
 
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="es_CO" />
 <meta property="og:site_name" content="Dra. Gloria Rivera" />
 <meta property="og:title" content="Blog sobre Invisalign® y ortodoncia invisible | Dra. Gloria Rivera" />
 <meta property="og:description" content="Guías honestas sobre Invisalign en Bogotá: precios, dolor, duración, candidatura, cuidado y más." />
-<meta property="og:url" content="https://dragloriarivera.com/blog" />
+<meta property="og:url" content="https://dragloriarivera.com/blogs" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -308,7 +308,7 @@ footer{
 </style>
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Blog","name":"Blog Dra. Gloria Rivera","description":"Guías honestas sobre Invisalign y ortodoncia invisible en Bogotá","url":"https://dragloriarivera.com/blog","inLanguage":"es-CO","author":{"@type":"Person","name":"Dra. Gloria Rivera"}}
+{"@context":"https://schema.org","@type":"Blog","name":"Blog Dra. Gloria Rivera","description":"Guías honestas sobre Invisalign y ortodoncia invisible en Bogotá","url":"https://dragloriarivera.com/blogs","inLanguage":"es-CO","author":{"@type":"Person","name":"Dra. Gloria Rivera"}}
 </script>
 </head>
 <body>
@@ -400,7 +400,7 @@ footer{
    BLOG DATA + APP
    ============================================================ */
 var ARTICLES = [
-  { slug:'cuanto-cuesta-invisalign-bogota-2026', title:'¿Cuánto cuesta Invisalign en Bogotá? — Guía honesta 2026',
+  { slug:'cuanto-cuesta-invisalign-2026', title:'¿Cuánto cuesta Invisalign en Bogotá? — Guía honesta 2026',
     excerpt:'Los precios reales del mercado, qué incluye cada tipo de tratamiento y por qué publicar un número fijo en internet no te ayuda a decidir.',
     category:'Precios', date:'2026-04-22', readTime:8, featured:true,
     image:'https://res.cloudinary.com/dafmpak8s/image/upload/q_auto/f_auto/v1778797154/Editorial_table_with_planning_te__202605141556_lk9ate.jpg',

@@ -1,0 +1,68 @@
+<script>
+(function(){
+  /* ---------- NAV: scroll state + progress ---------- */
+  var nav = document.getElementById('gr-nav');
+  var util = document.getElementById('gr-utility');
+  var progress = document.getElementById('gr-progress');
+
+  function onScroll(){
+    var y = window.scrollY;
+    if(y > 40){ nav.classList.add('scrolled'); util.classList.add('hidden'); }
+    else { nav.classList.remove('scrolled'); util.classList.remove('hidden'); }
+    var max = document.body.scrollHeight - window.innerHeight;
+    var p = max > 0 ? Math.min(1, y/max) : 0;
+    progress.style.width = (p*100) + '%';
+  }
+  window.addEventListener('scroll', onScroll, { passive:true });
+  onScroll();
+
+  /* ---------- Smooth scroll to #agenda for the "Agenda ahora" CTAs ---------- */
+  function smoothScrollTo(id){
+    var el = document.getElementById(id);
+    if(!el) return;
+    var top = el.getBoundingClientRect().top + window.scrollY - 32;
+    window.scrollTo({ top: top, behavior: 'smooth' });
+  }
+  document.querySelectorAll('a[href="#agenda"]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      e.preventDefault();
+      smoothScrollTo('agenda');
+    });
+  });
+
+  /* ---------- Mobile overlay ---------- */
+  var openBtn = document.getElementById('menu-open-btn');
+  var closeBtn = document.getElementById('menu-close-btn');
+  var overlay = document.getElementById('gr-overlay');
+  function setMobile(open){
+    overlay.classList.toggle('open', open);
+    overlay.setAttribute('aria-hidden', open ? 'false' : 'true');
+    document.body.style.overflow = open ? 'hidden' : '';
+  }
+  openBtn.addEventListener('click', function(){ setMobile(true); });
+  closeBtn.addEventListener('click', function(){ setMobile(false); });
+  overlay.querySelectorAll('.gr-overlay-link, .gr-overlay-cta').forEach(function(a){
+    a.addEventListener('click', function(){ setMobile(false); });
+  });
+
+  /* ---------- Reveal on scroll ---------- */
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(en.isIntersecting){
+        en.target.classList.add('in');
+        io.unobserve(en.target);
+      }
+    });
+  }, { threshold:0.15, rootMargin:'0px 0px -50px 0px' });
+  document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+
+  /* ---------- Hero video: respect reduced motion ---------- */
+  try{
+    var rm = window.matchMedia('(prefers-reduced-motion: reduce)');
+    if(rm.matches){
+      var v = document.getElementById('hv-video');
+      if(v){ v.pause(); v.removeAttribute('autoplay'); }
+    }
+  }catch(e){}
+})();
+</script>

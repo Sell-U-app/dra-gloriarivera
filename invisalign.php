@@ -7,14 +7,14 @@
 <meta name="description" content="Invisalign® en Bogotá con la Dra. Gloria Rivera, Top Doctor Emerald. Plan digital ClinCheck, alineadores invisibles a medida, acompañamiento personal. Valoración virtual gratuita." />
 <meta name="robots" content="index, follow, max-image-preview:large" />
 <meta name="theme-color" content="#f5f0eb" />
-<link rel="canonical" href="https://dragloriarivera.com/invisalign-bogota" />
+<link rel="canonical" href="https://dragloriarivera.com/invisalign" />
 
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="es_CO" />
 <meta property="og:site_name" content="Dra. Gloria Rivera — Ortodoncia invisible" />
 <meta property="og:title" content="Invisalign® en Bogotá | Dra. Gloria Rivera" />
 <meta property="og:description" content="Ortodoncia invisible en Bogotá con Top Doctor Emerald. Plan digital previo, acompañamiento personal." />
-<meta property="og:url" content="https://dragloriarivera.com/invisalign-bogota" />
+<meta property="og:url" content="https://dragloriarivera.com/invisalign" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,7 +29,7 @@
   "bodyLocation":"Mouth, Teeth",
   "procedureType":"https://schema.org/TherapeuticProcedure",
   "preparation":"Valoración clínica y escaneo iTero™",
-  "url":"https://dragloriarivera.com/invisalign-bogota"
+  "url":"https://dragloriarivera.com/invisalign"
 }
 </script>
 <script type="application/ld+json">
@@ -49,7 +49,7 @@
   "@context":"https://schema.org","@type":"BreadcrumbList",
   "itemListElement":[
     {"@type":"ListItem","position":1,"name":"Inicio","item":"https://dragloriarivera.com/"},
-    {"@type":"ListItem","position":2,"name":"Invisalign en Bogotá","item":"https://dragloriarivera.com/invisalign-bogota"}
+    {"@type":"ListItem","position":2,"name":"Invisalign en Bogotá","item":"https://dragloriarivera.com/invisalign"}
   ]
 }
 </script>
@@ -424,7 +424,7 @@ footer{
           </span>
 
           <div class="iv-row-24" style="margin-top:8px;">
-            <a href="/agendar-valoracion" class="iv-btn iv-btn-primary iv-pulse">
+            <a href="/agenda-valoracion" class="iv-btn iv-btn-primary iv-pulse">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
               Agenda ahora
             </a>
@@ -546,7 +546,7 @@ footer{
       <div class="iv-callout reveal">
         <span class="iv-eyebrow">¿No estás seguro?</span>
         <p>En la valoración revisamos tu caso específico y te digo con honestidad si Invisalign es la mejor opción para ti. Si no lo es, te oriento sobre el tratamiento que sí lo sería.</p>
-        <a href="/agendar-valoracion" class="iv-link">Agenda ahora →</a>
+        <a href="/agenda-valoracion" class="iv-link">Agenda ahora →</a>
       </div>
     </div>
   </section>
@@ -644,7 +644,7 @@ footer{
 
       <div style="margin-top:56px; display:flex; flex-direction:column; gap:18px; align-items:center;" class="reveal">
         <p style="margin:0; font-family:var(--font-display); font-style:italic; font-size:22px; color:var(--carbon); text-align:center;">¿Tu caso es para Invisalign?</p>
-        <a href="/agendar-valoracion" class="iv-btn iv-btn-primary">
+        <a href="/agenda-valoracion" class="iv-btn iv-btn-primary">
           Conocer en valoración
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
         </a>
@@ -714,7 +714,7 @@ footer{
           </p>
 
           <div class="iv-final-cta-row">
-            <a href="/agendar-valoracion" class="iv-btn iv-btn-light iv-pulse">
+            <a href="/agenda-valoracion" class="iv-btn iv-btn-light iv-pulse">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
               Agenda ahora
             </a>
@@ -926,7 +926,7 @@ footer{
      a:['Invisalign® es un tratamiento de ortodoncia que usa alineadores transparentes removibles fabricados a medida por Align Technology en Estados Unidos. Cada alineador mueve los dientes de forma gradual siguiendo un plan diseñado digitalmente en ClinCheck.',
         'Es invisible, removible y permite mantener tu rutina de higiene normal. Es ortodoncia, no carillas — alinea tus dientes reales.']},
     {q:'¿Cuánto cuesta Invisalign® en Bogotá?',
-     a:['El precio depende del tipo de tratamiento (Express, Lite, Moderate, Comprehensive), la complejidad de tu caso y la duración estimada. No publico un precio fijo porque cada caso es distinto y un número en internet no te ayuda a decidir. En la valoración te doy un rango realista basado en tu diagnóstico específico, qué incluye y formas de financiación. <a href="/agendar-valoracion" class="iv-link">Agenda ahora →</a>']},
+     a:['El precio depende del tipo de tratamiento (Express, Lite, Moderate, Comprehensive), la complejidad de tu caso y la duración estimada. No publico un precio fijo porque cada caso es distinto y un número en internet no te ayuda a decidir. En la valoración te doy un rango realista basado en tu diagnóstico específico, qué incluye y formas de financiación. <a href="/agenda-valoracion" class="iv-link">Agenda ahora →</a>']},
     {q:'¿Invisalign® duele?',
      a:['No duele, pero los primeros 2–3 días con un alineador nuevo sientes presión y molestia leve. Es la fuerza necesaria para mover los dientes.',
         'La diferencia con brackets es importante: con Invisalign no hay alambres ni elementos que rocen tus mejillas o labios. Después de los primeros días con cada nuevo alineador, te olvidas de que lo tienes puesto.']},
@@ -943,7 +943,7 @@ footer{
      a:['22 horas al día. Solo te los quitas para comer y para cepillarte. Esta es la regla más importante de Invisalign: la adherencia define el resultado.',
         'Pacientes que no cumplen las 22 horas no ven los movimientos planificados en ClinCheck y el tratamiento se alarga o necesita refinamientos. Por eso solo trabajo con personas comprometidas con su tratamiento.']},
     {q:'¿Cómo sé si soy candidato para Invisalign®?',
-     a:['En una valoración virtual gratuita de 30 minutos reviso tu caso, evalúo tu diagnóstico inicial y te digo con honestidad si Invisalign es viable, qué tipo necesitarías, cuánto tiempo y un rango realista de inversión. Sin compromiso, sin venta agresiva. Solo claridad sobre tu caso. <a href="/agendar-valoracion" class="iv-link">Agendar valoración gratuita →</a>']}
+     a:['En una valoración virtual gratuita de 30 minutos reviso tu caso, evalúo tu diagnóstico inicial y te digo con honestidad si Invisalign es viable, qué tipo necesitarías, cuánto tiempo y un rango realista de inversión. Sin compromiso, sin venta agresiva. Solo claridad sobre tu caso. <a href="/agenda-valoracion" class="iv-link">Agendar valoración gratuita →</a>']}
   ];
   var wrap = document.getElementById('iv-faq-wrap');
   var html = '';

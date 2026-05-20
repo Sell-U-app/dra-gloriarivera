@@ -509,7 +509,7 @@ footer{
           <h4>También puede interesarte</h4>
           <div class="links">
             <a href="/aviso-legal">Aviso legal →</a>
-            <a href="/terminos-condiciones">Términos y condiciones →</a>
+            <a href="/terminos-y-condiciones">Términos y condiciones →</a>
           </div>
         </aside>
       </section>

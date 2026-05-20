@@ -11,16 +11,16 @@
         <div class="iv-footer-col-label">Navegación</div>
         <ul>
           <li><a href="/">Inicio</a></li>
-          <li><a href="/invisalign-bogota">Invisalign</a></li>
+          <li><a href="/invisalign">Invisalign</a></li>
           <li><a href="/resultados">Resultados</a></li>
           <li><a href="/ladoctora">La Doctora</a></li>
-          <li><a href="/blog">Blog</a></li>
+          <li><a href="/blogs">Blog</a></li>
         </ul>
       </div>
       <div>
         <div class="iv-footer-col-label">Contacto</div>
         <ul>
-          <li><a href="/agendar-valoracion">Agenda ahora</a></li>
+          <li><a href="/agenda-valoracion">Agenda ahora</a></li>
           <li><a href="tel:+573100000000">+57 310 000 0000</a></li>
           <li><a href="mailto:hola@dragloriarivera.com">hola@dragloriarivera.com</a></li>
         </ul>
@@ -30,7 +30,7 @@
         <ul>
           <li><a href="/aviso-legal">Aviso legal</a></li>
           <li><a href="/politica-privacidad">Política de privacidad</a></li>
-          <li><a href="/terminos-condiciones">Términos y condiciones</a></li>
+          <li><a href="/terminos-y-condiciones">Términos y condiciones</a></li>
         </ul>
       </div>
     </div>

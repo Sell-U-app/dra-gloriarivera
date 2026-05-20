@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Términos y condiciones | Dra. Gloria Rivera</title>
 <meta name="description" content="Términos y condiciones de uso del sitio web de la Dra. Gloria Rivera, ortodoncista especialista en Invisalign® en Bogotá. Derechos, responsabilidades y alcance.">
-<link rel="canonical" href="/terminos-condiciones">
+<link rel="canonical" href="/terminos-y-condiciones">
 <meta name="robots" content="index, follow">
 
 <meta property="og:type" content="website">
@@ -19,7 +19,7 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"Términos y condiciones de uso","url":"https://dragloriarivera.com/terminos-condiciones","isPartOf":{"@type":"WebSite","name":"Dra. Gloria Rivera","url":"https://dragloriarivera.com"},"dateModified":"2026-05-14","inLanguage":"es-CO"}
+{"@context":"https://schema.org","@type":"WebPage","name":"Términos y condiciones de uso","url":"https://dragloriarivera.com/terminos-y-condiciones","isPartOf":{"@type":"WebSite","name":"Dra. Gloria Rivera","url":"https://dragloriarivera.com"},"dateModified":"2026-05-14","inLanguage":"es-CO"}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://dragloriarivera.com/"},{"@type":"ListItem","position":2,"name":"Legal"},{"@type":"ListItem","position":3,"name":"Términos y condiciones"}]}

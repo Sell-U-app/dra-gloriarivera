@@ -431,7 +431,7 @@ footer{
           <h4>También puede interesarte</h4>
           <ul>
             <li><a href="/politica-privacidad"><span>Política de privacidad y Habeas Data</span><span class="arrow"></span></a></li>
-            <li><a href="/terminos-condiciones"><span>Términos y condiciones</span><span class="arrow"></span></a></li>
+            <li><a href="/terminos-y-condiciones"><span>Términos y condiciones</span><span class="arrow"></span></a></li>
           </ul>
         </div>
       </section>

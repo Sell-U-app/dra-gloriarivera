@@ -1499,7 +1499,7 @@ body{padding-top:0;}
 <?php include __DIR__ . '/partials/header.php'; ?>
 <div id="contenido"></div>
 <div class="breadcrumb">
-  <a href="/blog">Diario</a>
+  <a href="/blogs">Diario</a>
   <span class="breadcrumb-sep">›</span>
   <a href="/blog?categoria=tratamiento">Tratamiento</a>
   <span class="breadcrumb-sep">›</span>
@@ -1675,7 +1675,7 @@ body{padding-top:0;}
 
   <div class="callout tone-warm">
     <div class="callout-eyebrow">Importante</div>
-    <p>No todos los pacientes sienten lo mismo. La intensidad de la presión cambia según el tipo de movimiento dental que ese alineador específico está realizando. Movimientos más grandes generan más presión; movimientos pequeños casi no se sienten. Tu <a href="/invisalign-bogota" class="inline">plan ClinCheck define qué movimiento hace cada alineador</a>.</p>
+    <p>No todos los pacientes sienten lo mismo. La intensidad de la presión cambia según el tipo de movimiento dental que ese alineador específico está realizando. Movimientos más grandes generan más presión; movimientos pequeños casi no se sienten. Tu <a href="/invisalign" class="inline">plan ClinCheck define qué movimiento hace cada alineador</a>.</p>
   </div>
 
   <!-- Internal image 2 -->

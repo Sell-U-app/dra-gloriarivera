@@ -2061,7 +2061,7 @@ body{padding-top:0;}
     <div class="bt-container bt-breadcrumbs-inner">
       <a href="/" class="crumb-home">Inicio</a>
       <span class="sep">›</span>
-      <a href="/blog" class="crumb-blog">Blog</a>
+      <a href="/blogs" class="crumb-blog">Blog</a>
       <span class="sep">›</span>
       <a href="/blog?categoria=tratamiento">Tratamiento</a>
       <span class="sep">›</span>
@@ -2128,7 +2128,7 @@ body{padding-top:0;}
 
       <p>
         En este artículo te explico los
-        <a href="/invisalign-bogota">rangos reales por tipo de Invisalign®</a>,
+        <a href="/invisalign">rangos reales por tipo de Invisalign®</a>,
         los 5 factores que aceleran o ralentizan el tratamiento, qué puedes esperar mes a mes y
         los mitos comunes sobre acelerar el proceso. Lo importante no es que tu tratamiento sea
         el más corto del mundo, sino que sea el correcto para tu caso.
@@ -2745,7 +2745,7 @@ body{padding-top:0;}
   <section class="bt-related template-badge light" data-template="TEMPLATE · RELATED">
     <div class="head">
       <h3>Lecturas relacionadas</h3>
-      <a href="/blog">Ver todo el blog ›</a>
+      <a href="/blogs">Ver todo el blog ›</a>
     </div>
     <div class="bt-related-grid">
       <a href="/blog/diferencias-invisalign-brackets" class="bt-related-card">
@@ -2758,7 +2758,7 @@ body{padding-top:0;}
         <span class="cat">Tecnología</span>
         <h4>Qué es ClinCheck y por qué se aprueba antes de empezar.</h4>
       </a>
-      <a href="/blog/invisalign-bogota-precio" class="bt-related-card">
+      <a href="/blog/invisalign-precio" class="bt-related-card">
         <div class="thumb"></div>
         <span class="cat">Inversión</span>
         <h4>Cuánto cuesta Invisalign® en Bogotá: rangos honestos, sin letra pequeña.</h4>

@@ -387,7 +387,7 @@ footer{
           <p class="hero-lead">Cada caso documentado con consentimiento del paciente. Sin retoques digitales. Sin filtros. La Dra. Gloria diseñó personalmente cada plan en ClinCheck.</p>
           <p class="variability">Los resultados varían según el diagnóstico de cada paciente.</p>
           <div class="cta-row">
-            <a class="casos-btn-primary" href="/agendar-valoracion">
+            <a class="casos-btn-primary" href="/agenda-valoracion">
               <span>Agenda ahora</span>
               <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
             </a>
@@ -451,7 +451,7 @@ footer{
           <p>La Dra. Gloria revisa tu caso en valoración virtual gratuita y diseña tu plan personalizado en ClinCheck antes de cualquier decisión.</p>
         </div>
         <div>
-          <a class="intermediate-cta-btn" href="/agendar-valoracion">
+          <a class="intermediate-cta-btn" href="/agenda-valoracion">
             <span>Agenda ahora</span>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
           </a>
@@ -483,7 +483,7 @@ footer{
       <h2 class="reveal" style="transition-delay:80ms">¿Quieres <span class="em">saber</span> si tu caso es viable?</h2>
       <p class="sub reveal" style="transition-delay:160ms; max-width:560px; margin-left:auto; margin-right:auto;">Una videollamada de 30 minutos con la Dra. Gloria. Sin costo. Sin compromiso. Solo claridad sobre tu diagnóstico y qué tipo de Invisalign<sup style="font-size:.55em;">®</sup> necesitarías.</p>
       <div class="reveal" style="transition-delay:240ms">
-        <a class="casos-btn-primary pulse" href="/agendar-valoracion">
+        <a class="casos-btn-primary pulse" href="/agenda-valoracion">
           <span>Agenda ahora</span>
           <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
         </a>
@@ -729,7 +729,7 @@ function modalBodyHTML(c){
         '<span class="attr">— '+c.patient.name+', '+c.patient.age+' años · '+c.patient.occupation+' · '+c.patient.neighborhood+'</span>'+
       '</blockquote>'+
       '<div class="modal-disclaimer">Los resultados de este caso corresponden al diagnóstico específico de este paciente y al cumplimiento del plan de uso de 22 horas al día. Los resultados varían según cada caso clínico. Imágenes compartidas con consentimiento informado y autorización firmada del paciente.</div>'+
-      '<a class="modal-cta" href="/agendar-valoracion">'+
+      '<a class="modal-cta" href="/agenda-valoracion">'+
         '<span>¿Tu caso es similar? Conoce tu plan</span>'+
         '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>'+
       '</a>'+

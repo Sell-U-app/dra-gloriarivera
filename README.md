@@ -8,15 +8,15 @@ Proyecto PHP listo para subir a NameCheap shared hosting.
 dragloriarivera-namecheap/
 ├── .htaccess                  ← Apache config (URLs limpias, gzip, caché)
 ├── index.php                  ← Página de inicio  (/)
-├── invisalign-bogota.php      ← /invisalign-bogota
+├── invisalign.php      ← /invisalign
 ├── resultados.php             ← /resultados
 ├── ladoctora.php              ← /ladoctora
 ├── blog.php                   ← /blog
-├── agendar-valoracion.php     ← /agendar-valoracion
+├── agenda-valoracion.php     ← /agenda-valoracion
 ├── vsl.php                    ← /vsl
 ├── aviso-legal.php            ← /aviso-legal
 ├── politica-privacidad.php    ← /politica-privacidad
-├── terminos-condiciones.php   ← /terminos-condiciones
+├── terminos-y-condiciones.php   ← /terminos-y-condiciones
 ├── articulo-cuanto-cuesta-invisalign.php
 ├── articulo-cuanto-dura-invisalign.php
 ├── articulo-invisalign-duele.php
@@ -62,15 +62,15 @@ Sube ese archivo a NameCheap y el cambio aparece automáticamente en las **15 p�
 Visita estas URLs y confirma que cargan correctamente:
 
 - https://dragloriarivera.com/
-- https://dragloriarivera.com/invisalign-bogota
+- https://dragloriarivera.com/invisalign
 - https://dragloriarivera.com/resultados
 - https://dragloriarivera.com/ladoctora
-- https://dragloriarivera.com/blog
-- https://dragloriarivera.com/agendar-valoracion
+- https://dragloriarivera.com/blogs
+- https://dragloriarivera.com/agenda-valoracion
 - https://dragloriarivera.com/vsl
 - https://dragloriarivera.com/aviso-legal
 - https://dragloriarivera.com/politica-privacidad
-- https://dragloriarivera.com/terminos-condiciones
+- https://dragloriarivera.com/terminos-y-condiciones
 - https://dragloriarivera.com/articulo-cuanto-cuesta-invisalign
 - https://dragloriarivera.com/articulo-cuanto-dura-invisalign
 - https://dragloriarivera.com/articulo-invisalign-duele

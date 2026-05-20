@@ -5,14 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>¿Cuánto cuesta Invisalign en Bogotá? Guía honesta 2026 | Dra. Gloria Rivera</title>
 <meta name="description" content="Rangos reales, qué incluye un plan completo de Invisalign en Bogotá y por qué dos casos similares pueden costar distinto. Sin tarifas ocultas." />
-<link rel="canonical" href="https://dragloriarivera.com/blog/cuanto-cuesta-invisalign-bogota-2026" />
+<link rel="canonical" href="https://dragloriarivera.com/blogs/cuanto-cuesta-invisalign-2026" />
 
 <meta property="og:type" content="article" />
 <meta property="og:locale" content="es_CO" />
 <meta property="og:site_name" content="Dra. Gloria Rivera" />
 <meta property="og:title" content="¿Cuánto cuesta Invisalign en Bogotá? Guía honesta 2026 | Dra. Gloria Rivera" />
 <meta property="og:description" content="Rangos reales, qué incluye un plan completo de Invisalign en Bogotá y por qué dos casos similares pueden costar distinto. Sin tarifas ocultas." />
-<meta property="og:url" content="https://dragloriarivera.com/blog/cuanto-cuesta-invisalign-bogota-2026" />
+<meta property="og:url" content="https://dragloriarivera.com/blogs/cuanto-cuesta-invisalign-2026" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -2473,10 +2473,10 @@ body{padding-top:0;}
 </style>
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":["Article","BlogPosting"],"headline":"¿Cuánto cuesta Invisalign en Bogotá? Una guía honesta para 2026","description":"Rangos reales, qué incluye un plan completo de Invisalign en Bogotá y por qué dos casos similares pueden costar distinto. Sin tarifas ocultas.","datePublished":"2026-05-12","dateModified":"2026-05-12","author":{"@type":"Person","name":"Dra. Gloria Rivera","url":"https://dragloriarivera.com/ladoctora","jobTitle":"Ortodoncista especialista en Invisalign","medicalSpecialty":"Orthodontic"},"publisher":{"@type":"Organization","name":"Dra. Gloria Rivera"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://dragloriarivera.com/blog/cuanto-cuesta-invisalign-bogota-2026"},"articleSection":"Precios","inLanguage":"es-CO","wordCount":1820}
+{"@context":"https://schema.org","@type":["Article","BlogPosting"],"headline":"¿Cuánto cuesta Invisalign en Bogotá? Una guía honesta para 2026","description":"Rangos reales, qué incluye un plan completo de Invisalign en Bogotá y por qué dos casos similares pueden costar distinto. Sin tarifas ocultas.","datePublished":"2026-05-12","dateModified":"2026-05-12","author":{"@type":"Person","name":"Dra. Gloria Rivera","url":"https://dragloriarivera.com/ladoctora","jobTitle":"Ortodoncista especialista en Invisalign","medicalSpecialty":"Orthodontic"},"publisher":{"@type":"Organization","name":"Dra. Gloria Rivera"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://dragloriarivera.com/blogs/cuanto-cuesta-invisalign-2026"},"articleSection":"Precios","inLanguage":"es-CO","wordCount":1820}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://dragloriarivera.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://dragloriarivera.com/blog"},{"@type":"ListItem","position":3,"name":"Precios"},{"@type":"ListItem","position":4,"name":"¿Cuánto cuesta Invisalign en Bogotá?"}]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://dragloriarivera.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://dragloriarivera.com/blogs"},{"@type":"ListItem","position":3,"name":"Precios"},{"@type":"ListItem","position":4,"name":"¿Cuánto cuesta Invisalign en Bogotá?"}]}
 </script>
 </head>
 <body>
@@ -2490,7 +2490,7 @@ body{padding-top:0;}
     <nav class="bc" aria-label="Breadcrumb">
       <a href="/">Inicio</a>
       <span class="bc-sep" aria-hidden="true">›</span>
-      <a href="/blog">Blog</a>
+      <a href="/blogs">Blog</a>
       <span class="bc-sep" aria-hidden="true">›</span>
       <a href="/blog?categoria=precios">Precios</a>
       <span class="bc-sep" aria-hidden="true">›</span>

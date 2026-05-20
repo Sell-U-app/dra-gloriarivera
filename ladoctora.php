@@ -2186,7 +2186,7 @@ footer{
         </div>
 
         <div class="ld-hero-ctas">
-          <a class="ld-btn-primary" href="/agendar-valoracion">
+          <a class="ld-btn-primary" href="/agenda-valoracion">
             Agenda ahora
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <line x1="5" y1="12" x2="19" y2="12" />
@@ -2544,7 +2544,7 @@ footer{
         </p>
 
         <div class="actions">
-          <a class="ld-btn-on-dark-primary" href="/agendar-valoracion">
+          <a class="ld-btn-on-dark-primary" href="/agenda-valoracion">
             Agenda ahora
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <line x1="5" y1="12" x2="19" y2="12" />

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Invisalign® vs brackets metálicos: comparativa honesta | Dra. Gloria Rivera</title>
   <meta name="description" content="Invisalign® o brackets metálicos: comparativa honesta de estética, comodidad, precio, duración y disciplina por la Dra. Gloria Rivera, ortodoncista en Bogotá." />
-  <link rel="canonical" href="https://dragloriarivera.com/blog/invisalign-vs-brackets-metalicos" />
+  <link rel="canonical" href="https://dragloriarivera.com/blogs/invisalign-vs-brackets-metalicos" />
 
   <!-- JSON-LD: Article + BlogPosting (from template) -->
   <script type="application/ld+json">
@@ -27,7 +27,7 @@
       "name": "Dra. Gloria Rivera",
       "logo": { "@type": "ImageObject", "url": "https://dragloriarivera.com/assets/logos/logo-dark.png" }
     },
-    "mainEntityOfPage": "https://dragloriarivera.com/blog/invisalign-vs-brackets-metalicos",
+    "mainEntityOfPage": "https://dragloriarivera.com/blogs/invisalign-vs-brackets-metalicos",
     "articleSection": "Comparativas",
     "wordCount": 1350,
     "inLanguage": "es-CO"
@@ -41,8 +41,8 @@
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://dragloriarivera.com/" },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://dragloriarivera.com/blog" },
-      { "@type": "ListItem", "position": 3, "name": "Comparativas", "item": "https://dragloriarivera.com/blog/categoria/comparativas" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://dragloriarivera.com/blogs" },
+      { "@type": "ListItem", "position": 3, "name": "Comparativas", "item": "https://dragloriarivera.com/blogs/categoria/comparativas" },
       { "@type": "ListItem", "position": 4, "name": "Invisalign vs brackets metálicos" }
     ]
   }
@@ -2344,7 +2344,7 @@ body{padding-top:0;}
       <nav class="article-breadcrumb" aria-label="Breadcrumb">
         <a href="/">Inicio</a>
         <span class="crumb-sep">›</span>
-        <a href="/blog">Blog</a>
+        <a href="/blogs">Blog</a>
         <span class="crumb-sep">›</span>
         <a href="/blog/categoria/comparativas">Comparativas</a>
         <span class="crumb-sep">›</span>
@@ -2414,7 +2414,7 @@ body{padding-top:0;}
       <section class="intro-block">
         <p>Si estás aquí, probablemente estás decidiendo entre Invisalign® y brackets metálicos. Lo primero que debes saber es esto: no existe una opción que sea mejor para todos. Cualquier ortodoncista que te diga lo contrario está vendiendo, no informando.</p>
 
-        <p>Yo <a class="inline-link" href="/invisalign-bogota">trato exclusivamente con Invisalign®</a>, y aun así te voy a contar honestamente dónde los brackets metálicos siguen siendo una opción muy buena. Porque la mejor decisión no se toma comparando un tratamiento con otro en internet. Se toma con <a class="inline-link" href="/agenda-tu-valoracion">una valoración clínica</a> que considere tu diagnóstico, tu estilo de vida, tu disciplina y tu presupuesto.</p>
+        <p>Yo <a class="inline-link" href="/invisalign">trato exclusivamente con Invisalign®</a>, y aun así te voy a contar honestamente dónde los brackets metálicos siguen siendo una opción muy buena. Porque la mejor decisión no se toma comparando un tratamiento con otro en internet. Se toma con <a class="inline-link" href="/agenda-tu-valoracion">una valoración clínica</a> que considere tu diagnóstico, tu estilo de vida, tu disciplina y tu presupuesto.</p>
 
         <p>Los brackets metálicos llevan más de 100 años perfeccionándose y siguen siendo el tratamiento más efectivo para muchos casos. Invisalign®, por otro lado, ha cambiado lo que es posible hacer en ortodoncia estética y planificación digital. Ambos funcionan. La pregunta correcta no es cuál es mejor, sino cuál es mejor para ti.</p>
 
@@ -2653,10 +2653,10 @@ body{padding-top:0;}
           <span class="rh-eyebrow">Sigue leyendo</span>
           <h2>Otros artículos del diario clínico.</h2>
         </div>
-        <a href="/blog" class="rh-link">Ver todos los artículos →</a>
+        <a href="/blogs" class="rh-link">Ver todos los artículos →</a>
       </div>
       <div class="related-grid">
-        <a href="/blog/cuanto-cuesta-invisalign-bogota" class="related-card">
+        <a href="/blog/cuanto-cuesta-invisalign" class="related-card">
           <div class="rc-image"><span class="rc-monogram">$</span></div>
           <div class="rc-body">
             <span class="rc-category">Costos · transparencia</span>
