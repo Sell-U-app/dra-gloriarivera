@@ -86,7 +86,7 @@ button{font-family:inherit}
 .gr-overlay-cta{align-self:center; margin-top:32px; background:transparent; color:#f5f0eb; border:1px solid #c4a47c; padding:18px 36px; font-weight:500; font-size:14px; letter-spacing:.06em; text-transform:uppercase; display:inline-flex; align-items:center; gap:12px;}
 
 /* ===== TOP BANNER (carbón, mensaje pequeño) ===== */
-main{padding-top:120px;}
+main{padding-top:0;}
 .rl-top-banner{background:#111111; color:#f5f0eb; padding:14px 32px; text-align:center; border-bottom:1px solid rgba(196,164,124,.18);}
 .rl-top-banner-inner{max-width:var(--container); margin:0 auto;}
 .rl-top-banner p{margin:0; font-family:var(--font-display); font-style:italic; font-size:14.5px; letter-spacing:.01em; line-height:1.5; color:#f5f0eb;}
@@ -291,7 +291,7 @@ footer{background:#111111; color:#f5f0eb; padding:80px 32px 40px; font-family:"G
    MOBILE-FIRST RESPONSIVE — page-level
    ============================================================ */
 @media(max-width:900px){
-  main{padding-top:104px;}
+  main{padding-top:0;}
   .rl-section{padding:32px 24px 56px;}
   .rl-inner{gap:32px;}
   .rl-overhead{font-size:clamp(1.25rem, 1.4vw + .6rem, 1.7rem); max-width:34ch;}
@@ -310,7 +310,7 @@ footer{background:#111111; color:#f5f0eb; padding:80px 32px 40px; font-family:"G
   .xp-video{aspect-ratio:9/14; max-height:520px;}
 }
 @media(max-width:600px){
-  main{padding-top:96px;}
+  main{padding-top:0;}
   /* Hero */
   .rl-section{padding:24px 16px 48px;}
   .rl-inner{gap:26px;}
@@ -380,7 +380,7 @@ footer{background:#111111; color:#f5f0eb; padding:80px 32px 40px; font-family:"G
 </style>
 </head>
 <body>
-<?php include __DIR__ . '/partials/header.php'; ?>
+<!-- VSL/funnel page: sin header global -->
 
 <main id="main">
 
@@ -657,7 +657,7 @@ footer{background:#111111; color:#f5f0eb; padding:80px 32px 40px; font-family:"G
 
 </main>
 
-<?php include __DIR__ . '/partials/footer.php'; ?>
+<?php include __DIR__ . '/partials/footer-minimal.php'; ?>
 
 <script>
 (function(){
@@ -665,8 +665,7 @@ footer{background:#111111; color:#f5f0eb; padding:80px 32px 40px; font-family:"G
   var util = document.getElementById('gr-utility');
   function onScroll(){
     var y = window.scrollY;
-    if(y > 40){ nav.classList.add('scrolled'); util.classList.add('hidden'); }
-    else { nav.classList.remove('scrolled'); util.classList.remove('hidden'); }
+    if(nav && y > 40){ nav.classList.add('scrolled'); util && util.classList.add('hidden'); } else { nav && nav.classList.remove('scrolled'); util && util.classList.remove('hidden'); }
   }
   window.addEventListener('scroll', onScroll, { passive:true });
   onScroll();
@@ -680,9 +679,9 @@ footer{background:#111111; color:#f5f0eb; padding:80px 32px 40px; font-family:"G
     overlay.setAttribute('aria-hidden', open ? 'false' : 'true');
     document.body.style.overflow = open ? 'hidden' : '';
   }
-  if(openBtn) openBtn.addEventListener('click', function(){ setMobile(true); });
-  if(closeBtn) closeBtn.addEventListener('click', function(){ setMobile(false); });
-  if(overlay) overlay.querySelectorAll('.gr-overlay-link, .gr-overlay-cta').forEach(function(a){
+  if(openBtn) if(openBtn) openBtn.addEventListener('click', function(){ setMobile(true); });
+  if(closeBtn) if(closeBtn) closeBtn.addEventListener('click', function(){ setMobile(false); });
+  if(overlay) overlay && overlay.querySelectorAll('.gr-overlay-link, .gr-overlay-cta').forEach(function(a){
     a.addEventListener('click', function(){ setMobile(false); });
   });
 })();

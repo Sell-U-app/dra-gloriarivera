@@ -110,7 +110,7 @@ button{font-family:inherit}
 .gr-overlay-cta{align-self:center; margin-top:32px; background:transparent; color:#f5f0eb; border:1px solid #c4a47c; padding:18px 36px; font-weight:500; font-size:14px; letter-spacing:.06em; text-transform:uppercase; display:inline-flex; align-items:center; gap:12px;}
 
 /* ===== HERO VSL section ===== */
-main{padding-top:120px;}
+main{padding-top:0;}
 .vsl-section{padding:48px 32px 64px;}
 .vsl-inner{max-width:var(--container); margin:0 auto; display:flex; flex-direction:column; gap:48px; align-items:center; text-align:center;}
 .vsl-promise{max-width:880px;}
@@ -187,7 +187,7 @@ footer{background:#111111; color:#f5f0eb; padding:80px 32px 40px; font-family:"G
    MOBILE-FIRST RESPONSIVE — page-level
    ============================================================ */
 @media(max-width:900px){
-  main{padding-top:104px;}
+  main{padding-top:0;}
   .vsl-section{padding:32px 24px 56px;}
   .vsl-inner{gap:36px;}
   .vsl-subhead{font-size:17px;}
@@ -196,7 +196,7 @@ footer{background:#111111; color:#f5f0eb; padding:80px 32px 40px; font-family:"G
   .cal-copy{font-size:15.5px;}
 }
 @media(max-width:600px){
-  main{padding-top:96px;}
+  main{padding-top:0;}
   .vsl-section{padding:24px 16px 48px;}
   .vsl-inner{gap:28px;}
   .vsl-promise{padding:0;}
@@ -232,7 +232,7 @@ footer{background:#111111; color:#f5f0eb; padding:80px 32px 40px; font-family:"G
 </style>
 </head>
 <body>
-<?php include __DIR__ . '/partials/header.php'; ?>
+<!-- VSL/funnel page: sin header global -->
 
 <main id="main">
 
@@ -308,7 +308,7 @@ footer{background:#111111; color:#f5f0eb; padding:80px 32px 40px; font-family:"G
 
 </main>
 
-<?php include __DIR__ . '/partials/footer.php'; ?>
+<?php include __DIR__ . '/partials/footer-minimal.php'; ?>
 
 <script>
 (function(){
@@ -316,8 +316,7 @@ footer{background:#111111; color:#f5f0eb; padding:80px 32px 40px; font-family:"G
   var util = document.getElementById('gr-utility');
   function onScroll(){
     var y = window.scrollY;
-    if(y > 40){ nav.classList.add('scrolled'); util.classList.add('hidden'); }
-    else { nav.classList.remove('scrolled'); util.classList.remove('hidden'); }
+    if(nav && y > 40){ nav.classList.add('scrolled'); util && util.classList.add('hidden'); } else { nav && nav.classList.remove('scrolled'); util && util.classList.remove('hidden'); }
   }
   window.addEventListener('scroll', onScroll, { passive:true });
   onScroll();
@@ -331,9 +330,9 @@ footer{background:#111111; color:#f5f0eb; padding:80px 32px 40px; font-family:"G
     overlay.setAttribute('aria-hidden', open ? 'false' : 'true');
     document.body.style.overflow = open ? 'hidden' : '';
   }
-  if(openBtn) openBtn.addEventListener('click', function(){ setMobile(true); });
-  if(closeBtn) closeBtn.addEventListener('click', function(){ setMobile(false); });
-  if(overlay) overlay.querySelectorAll('.gr-overlay-link, .gr-overlay-cta').forEach(function(a){
+  if(openBtn) if(openBtn) openBtn.addEventListener('click', function(){ setMobile(true); });
+  if(closeBtn) if(closeBtn) closeBtn.addEventListener('click', function(){ setMobile(false); });
+  if(overlay) overlay && overlay.querySelectorAll('.gr-overlay-link, .gr-overlay-cta').forEach(function(a){
     a.addEventListener('click', function(){ setMobile(false); });
   });
 })();

@@ -107,7 +107,7 @@ button{font-family:inherit}
 .gr-overlay-cta{align-self:center; margin-top:32px; background:transparent; color:#f5f0eb; border:1px solid #c4a47c; padding:18px 36px; font-weight:500; font-size:14px; letter-spacing:.06em; text-transform:uppercase; display:inline-flex; align-items:center; gap:12px;}
 
 /* ===== HERO VSL section ===== */
-main{padding-top:120px;}
+main{padding-top:0;}
 .vsl-section{padding:72px 32px 88px;}
 .vsl-inner{max-width:980px; margin:0 auto; display:flex; flex-direction:column; align-items:center; gap:40px;}
 .vsl-promise{display:flex; flex-direction:column; align-items:center; text-align:center; max-width:880px; margin:0 auto;}
@@ -225,7 +225,7 @@ footer{
 </style>
 </head>
 <body>
-<?php include __DIR__ . '/partials/header.php'; ?>
+<!-- VSL/funnel page: sin header global -->
 
 <main id="main">
 
@@ -307,7 +307,7 @@ footer{
 </main>
 
 <!-- ===== FOOTER ===== -->
-<?php include __DIR__ . '/partials/footer.php'; ?>
+<?php include __DIR__ . '/partials/footer-minimal.php'; ?>
 
 <script>
 // Nav scroll behavior + mobile overlay
@@ -316,8 +316,7 @@ footer{
   var util = document.getElementById('gr-utility');
   function onScroll(){
     var y = window.scrollY;
-    if(y > 40){ nav.classList.add('scrolled'); util.classList.add('hidden'); }
-    else { nav.classList.remove('scrolled'); util.classList.remove('hidden'); }
+    if(nav && y > 40){ nav.classList.add('scrolled'); util && util.classList.add('hidden'); } else { nav && nav.classList.remove('scrolled'); util && util.classList.remove('hidden'); }
   }
   window.addEventListener('scroll', onScroll, { passive:true });
   onScroll();
@@ -331,9 +330,9 @@ footer{
     overlay.setAttribute('aria-hidden', open ? 'false' : 'true');
     document.body.style.overflow = open ? 'hidden' : '';
   }
-  if(openBtn) openBtn.addEventListener('click', function(){ setMobile(true); });
-  if(closeBtn) closeBtn.addEventListener('click', function(){ setMobile(false); });
-  if(overlay) overlay.querySelectorAll('.gr-overlay-link, .gr-overlay-cta').forEach(function(a){
+  if(openBtn) if(openBtn) openBtn.addEventListener('click', function(){ setMobile(true); });
+  if(closeBtn) if(closeBtn) closeBtn.addEventListener('click', function(){ setMobile(false); });
+  if(overlay) overlay && overlay.querySelectorAll('.gr-overlay-link, .gr-overlay-cta').forEach(function(a){
     a.addEventListener('click', function(){ setMobile(false); });
   });
 })();
