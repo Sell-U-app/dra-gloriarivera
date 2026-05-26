@@ -945,7 +945,7 @@ footer{
      quote:'"Lo que más valoré fue la honestidad desde el primer día. Sin promesas vacías."',
      attrib:'[Paciente · 41 · médica]',
      before:'https://res.cloudinary.com/dafmpak8s/image/upload/q_auto/f_auto/v1778789280/mordida-cruzada_jfjzz0.png',
-     after:'https://res.cloudinary.com/dafmpak8s/image/upload/q_auto/f_auto/v1778789280/mordida-cruzada_jfjzz0.png'}
+     after:'https://res.cloudinary.com/dafmpak8s/image/upload/q_auto/f_auto/v1778871780/mordida-cruzada2_1_oon8yd.png'}
   ];
   var grid = document.getElementById('iv-cases-grid');
   cases.forEach(function(c){
