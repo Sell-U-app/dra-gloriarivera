@@ -1,4 +1,20 @@
-# Home de Dra. Gloria Rivera — Bloques para OneFunnel
+# Bloques OneFunnel — Dra. Gloria Rivera
+
+## 📦 Bundles disponibles (recomendados)
+
+Cada uno es UN solo archivo HTML autocontenido con CSS + JS + fuentes + logos en base64.
+Lo pegas en UN solo elemento "Custom HTML" / "HTML Block" / "Raw HTML" en OneFunnel.
+
+| Página | Bundle |
+|---|---|
+| Home | [`FULL-HOME-BUNDLE.html`](FULL-HOME-BUNDLE.html) |
+| Invisalign | [`INVISALIGN-BUNDLE.html`](INVISALIGN-BUNDLE.html) |
+
+Todas las rutas internas (CTAs a `/agenda-valoracion`, `/resultados`, etc.) están como **URLs absolutas** a `https://dragloriarivera.com/...` — funcionan aunque OneFunnel hospede la página en otro dominio.
+
+**Pendiente para `INVISALIGN-BUNDLE.html`:** subir los archivos de fuente Amsterdam Two a `dragloriarivera.com/assets/fonts/amsterdam-two.woff` y `.ttf` para que la firma de "Hacemos que Invisalign cambie tu vida" se renderice con la tipografía correcta. Si no, el navegador hace fallback a Mrs Saint Delafield (no se rompe nada).
+
+---
 
 ## ⚡ MÉTODO RÁPIDO (recomendado) — usar **FULL-HOME-BUNDLE.html**
 
