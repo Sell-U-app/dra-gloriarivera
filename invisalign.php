@@ -65,10 +65,22 @@
   --font-display:"DM Serif Display","Cormorant Garamond",Georgia,serif;
   --font-body:"General Sans","Inter",system-ui,-apple-system,sans-serif;
   --font-script:"Mrs Saint Delafield","Pinyon Script",cursive;
+  --font-signature:"Amsterdam Two","Mrs Saint Delafield","Pinyon Script",cursive;
   --ease-premium:cubic-bezier(.22,1,.36,1);
   --dur-normal:320ms; --dur-micro:180ms; --dur-fast:160ms;
   --container:1200px;
   --elev-2:0 8px 28px -12px rgba(17,17,17,.18);
+}
+
+/* ===== Fuente firma Dra. Gloria · Amsterdam Two =====
+   Sube los archivos a /assets/fonts/ (ajusta la ruta si los tienes en otro lado) */
+@font-face{
+  font-family:"Amsterdam Two";
+  src:url("/assets/fonts/amsterdam-two.woff") format("woff"),
+      url("/assets/fonts/amsterdam-two.ttf") format("truetype");
+  font-weight:400;
+  font-style:normal;
+  font-display:swap;
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%; scroll-behavior:smooth}
@@ -231,6 +243,8 @@ main{padding-top:120px;}
 .iv-dropcap::first-letter{font-family:var(--font-display); font-size:48px; float:left; line-height:1; margin:6px 10px 0 0; color:var(--dorado);}
 .iv-diff-signature{margin-top:32px; padding-top:24px; border-top:1px solid var(--hairline);}
 .iv-sig-name{display:block; font-family:var(--font-script); font-size:34px; color:var(--dorado); line-height:1;}
+/* Firma editorial de la sección "Hacemos que Invisalign cambie tu vida" — Amsterdam Two */
+.iv-diff-signature .iv-sig-name{font-family:var(--font-signature); font-size:44px; letter-spacing:0;}
 .iv-sig-meta{display:block; margin-top:8px; font-size:12px; letter-spacing:.16em; text-transform:uppercase; color:var(--piedra); font-weight:500;}
 .iv-sig-meta a{color:inherit;}
 .iv-sig-meta a:hover{color:var(--dorado);}
